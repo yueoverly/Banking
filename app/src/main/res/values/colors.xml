@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#1E88E5</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#64B5F6</color>
+    <color name="primary_variant">#0D47A1</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#26A69A</color>
+    <color name="secondary_dark">#00897B</color>
+    <color name="secondary_light">#80CBC4</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#FF6F00</color>
+    <color name="accent_light">#FFB74D</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#F5F5F5</color>
+    <color name="background_card">#FFFFFF</color>
+    <color name="background_dark">#E0E0E0</color>
+    <color name="surface">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_secondary">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="success_light">#C8E6C9</color>
+    <color name="warning">#FF9800</color>
+    <color name="warning_light">#FFE0B2</color>
+    <color name="error">#F44336</color>
+    <color name="error_light">#FFCDD2</color>
+    <color name="info">#2196F3</color>
+    <color name="info_light">#BBDEFB</color>
+    
+    <!-- Transaction Colors -->
+    <color name="income">#4CAF50</color>
+    <color name="expense">#F44336</color>
+    <color name="transfer">#2196F3</color>
+    
+    <!-- Account Type Colors -->
+    <color name="checking">#1E88E5</color>
+    <color name="saving">#43A047</color>
+    <color name="mortgage">#E53935</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#1E88E5</color>
+    <color name="gradient_end">#1565C0</color>
+    <color name="gradient_gold_start">#FFD700</color>
+    <color name="gradient_gold_end">#FFA000</color>
+    
+    <!-- Other Colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="ripple">#1F000000</color>
+    <color name="overlay">#80000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Navigation Colors -->
+    <color name="nav_selected">#1E88E5</color>
+    <color name="nav_unselected">#757575</color>
+    
+    <!-- Status Bar -->
+    <color name="status_bar">#1565C0</color>
+    
+    <!-- Status Colors for accounts/customers -->
+    <color name="status_active">#4CAF50</color>
+    <color name="status_pending">#FF9800</color>
+    <color name="status_inactive">#9E9E9E</color>
+    <color name="status_blocked">#F44336</color>
+    
+    <!-- Gray Colors -->
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_dark">#616161</color>
+</resources>

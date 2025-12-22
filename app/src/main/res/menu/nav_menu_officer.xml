@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        
+        <item
+            android:id="@+id/nav_menu_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Bảng điều khiển" />
+        
+        <item
+            android:id="@+id/nav_menu_create_customer"
+            android:icon="@drawable/ic_person_add"
+            android:title="Tạo khách hàng mới" />
+        
+        <item
+            android:id="@+id/nav_menu_customers"
+            android:icon="@drawable/ic_people"
+            android:title="Quản lý khách hàng" />
+        
+        <item
+            android:id="@+id/nav_menu_rates"
+            android:icon="@drawable/ic_percent"
+            android:title="Quản lý lãi suất" />
+        
+    </group>
+
+    <item android:title="Giao dịch">
+        <menu>
+            
+            <item
+                android:id="@+id/nav_all_transactions"
+                android:icon="@drawable/ic_history"
+                android:title="Tất cả giao dịch" />
+            
+            <item
+                android:id="@+id/nav_pending_requests"
+                android:icon="@drawable/ic_pending"
+                android:title="Yêu cầu đang chờ" />
+            
+            <item
+                android:id="@+id/nav_reports"
+                android:icon="@drawable/ic_report"
+                android:title="Báo cáo thống kê" />
+            
+        </menu>
+    </item>
+
+    <item android:title="Hệ thống">
+        <menu>
+            
+            <item
+                android:id="@+id/nav_officer_profile"
+                android:icon="@drawable/ic_person"
+                android:title="Hồ sơ cá nhân" />
+            
+            <item
+                android:id="@+id/nav_officer_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Cài đặt" />
+            
+            <item
+                android:id="@+id/nav_menu_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Đăng xuất" />
+            
+        </menu>
+    </item>
+
+</menu>

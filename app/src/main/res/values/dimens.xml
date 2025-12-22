@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins -->
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">48dp</dimen>
+    
+    <!-- Padding -->
+    <dimen name="padding_tiny">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    
+    <!-- Spacing (alias for consistency) -->
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">48dp</dimen>
+    
+    <!-- Corner Radius -->
+    <dimen name="corner_radius_tiny">2dp</dimen>
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_large">12dp</dimen>
+    <dimen name="corner_radius_xlarge">16dp</dimen>
+    <dimen name="corner_radius_xxlarge">24dp</dimen>
+    <dimen name="corner_radius_circle">100dp</dimen>
+    
+    <!-- Elevation -->
+    <dimen name="elevation_tiny">2dp</dimen>
+    <dimen name="elevation_small">4dp</dimen>
+    <dimen name="elevation_medium">6dp</dimen>
+    <dimen name="elevation_large">8dp</dimen>
+    <dimen name="elevation_xlarge">12dp</dimen>
+    
+    <!-- Icon Sizes -->
+    <dimen name="icon_size_tiny">16dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_xlarge">64dp</dimen>
+    <dimen name="icon_size_xxlarge">96dp</dimen>
+    
+    <!-- Avatar Sizes -->
+    <dimen name="avatar_tiny">32dp</dimen>
+    <dimen name="avatar_small">40dp</dimen>
+    <dimen name="avatar_medium">56dp</dimen>
+    <dimen name="avatar_large">80dp</dimen>
+    <dimen name="avatar_xlarge">120dp</dimen>
+    <dimen name="avatar_xxlarge">160dp</dimen>
+    
+    <!-- Button -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_height_small">36dp</dimen>
+    <dimen name="button_height_large">56dp</dimen>
+    <dimen name="button_min_width">120dp</dimen>
+    <dimen name="button_icon_size">24dp</dimen>
+    <dimen name="button_icon_padding">8dp</dimen>
+    
+    <!-- Input Fields -->
+    <dimen name="input_height">56dp</dimen>
+    <dimen name="input_height_dense">48dp</dimen>
+    <dimen name="input_corner_radius">8dp</dimen>
+    <dimen name="input_padding_horizontal">16dp</dimen>
+    <dimen name="input_padding_vertical">12dp</dimen>
+    
+    <!-- Card -->
+    <dimen name="card_height_account">180dp</dimen>
+    <dimen name="card_width_account">280dp</dimen>
+    <dimen name="card_height_service">100dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    
+    <!-- Bottom Navigation -->
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="bottom_nav_icon_size">24dp</dimen>
+    <dimen name="bottom_nav_text_size">12sp</dimen>
+    
+    <!-- Toolbar -->
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_icon_size">24dp</dimen>
+    
+    <!-- Text Sizes -->
+    <dimen name="text_size_tiny">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_body">16sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_headline">20sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="text_size_xlarge">28sp</dimen>
+    <dimen name="text_size_balance">32sp</dimen>
+    <dimen name="text_size_display">36sp</dimen>
+    
+    <!-- OTP Box -->
+    <dimen name="otp_box_size">48dp</dimen>
+    <dimen name="otp_box_spacing">8dp</dimen>
+    <dimen name="otp_text_size">24sp</dimen>
+    
+    <!-- Navigation Drawer -->
+    <dimen name="nav_header_height">180dp</dimen>
+    <dimen name="nav_drawer_width">280dp</dimen>
+    <dimen name="nav_item_height">48dp</dimen>
+    <dimen name="nav_item_icon_size">24dp</dimen>
+    
+    <!-- Divider -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_height_thick">2dp</dimen>
+    
+    <!-- List Item -->
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="list_item_height_small">56dp</dimen>
+    <dimen name="list_item_height_large">88dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    
+    <!-- Quick Action Grid -->
+    <dimen name="quick_action_icon_size">40dp</dimen>
+    <dimen name="quick_action_spacing">16dp</dimen>
+    <dimen name="quick_action_container_size">64dp</dimen>
+    
+    <!-- Face Verification -->
+    <dimen name="face_frame_width">250dp</dimen>
+    <dimen name="face_frame_height">320dp</dimen>
+    <dimen name="face_frame_size">280dp</dimen>
+    <dimen name="face_frame_stroke">4dp</dimen>
+    
+    <!-- QR Scanner -->
+    <dimen name="qr_frame_size">250dp</dimen>
+    <dimen name="qr_frame_stroke">4dp</dimen>
+    <dimen name="qr_corner_length">30dp</dimen>
+    
+    <!-- Map -->
+    <dimen name="map_marker_size">48dp</dimen>
+    <dimen name="map_info_window_width">200dp</dimen>
+    <dimen name="map_bottom_sheet_peek">120dp</dimen>
+    
+    <!-- Bottom Sheet -->
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_peek_height">200dp</dimen>
+    <dimen name="bottom_sheet_handle_width">40dp</dimen>
+    <dimen name="bottom_sheet_handle_height">4dp</dimen>
+    
+    <!-- Dialog -->
+    <dimen name="dialog_min_width">280dp</dimen>
+    <dimen name="dialog_max_width">400dp</dimen>
+    <dimen name="dialog_corner_radius">16dp</dimen>
+    <dimen name="dialog_padding">24dp</dimen>
+    
+    <!-- Chip -->
+    <dimen name="chip_height">32dp</dimen>
+    <dimen name="chip_icon_size">18dp</dimen>
+    <dimen name="chip_padding">12dp</dimen>
+    
+    <!-- Badge -->
+    <dimen name="badge_size">20dp</dimen>
+    <dimen name="badge_size_small">16dp</dimen>
+    <dimen name="badge_text_size">10sp</dimen>
+    
+    <!-- Progress -->
+    <dimen name="progress_bar_height">4dp</dimen>
+    <dimen name="progress_bar_height_thick">8dp</dimen>
+    <dimen name="progress_circle_size">48dp</dimen>
+    <dimen name="progress_circle_stroke">4dp</dimen>
+    
+    <!-- Transaction Item -->
+    <dimen name="transaction_icon_size">40dp</dimen>
+    <dimen name="transaction_icon_container">48dp</dimen>
+    
+    <!-- Account Card -->
+    <dimen name="account_card_height">160dp</dimen>
+    <dimen name="account_card_min_width">260dp</dimen>
+    <dimen name="account_type_badge_height">24dp</dimen>
+    
+    <!-- Branch Item -->
+    <dimen name="branch_item_height">100dp</dimen>
+    <dimen name="branch_icon_size">48dp</dimen>
+    
+    <!-- Customer Item -->
+    <dimen name="customer_avatar_size">56dp</dimen>
+    <dimen name="customer_item_height">88dp</dimen>
+    
+    <!-- Bill Type -->
+    <dimen name="bill_type_icon_size">32dp</dimen>
+    <dimen name="bill_type_container_size">56dp</dimen>
+    
+    <!-- Amount Display -->
+    <dimen name="amount_text_size_small">18sp</dimen>
+    <dimen name="amount_text_size_medium">24sp</dimen>
+    <dimen name="amount_text_size_large">32sp</dimen>
+    <dimen name="amount_text_size_xlarge">40sp</dimen>
+    
+    <!-- Splash Screen -->
+    <dimen name="splash_logo_size">120dp</dimen>
+    <dimen name="splash_title_size">28sp</dimen>
+    
+    <!-- Login/Register -->
+    <dimen name="auth_logo_size">100dp</dimen>
+    <dimen name="auth_title_size">24sp</dimen>
+    <dimen name="auth_field_spacing">16dp</dimen>
+    
+    <!-- Biometric -->
+    <dimen name="biometric_icon_size">64dp</dimen>
+    
+    <!-- Status Indicator -->
+    <dimen name="status_dot_size">8dp</dimen>
+    <dimen name="status_pill_height">24dp</dimen>
+    <dimen name="status_pill_padding">12dp</dimen>
+    
+    <!-- FAB -->
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    
+    <!-- Snackbar -->
+    <dimen name="snackbar_padding">16dp</dimen>
+    <dimen name="snackbar_margin">8dp</dimen>
+    
+    <!-- Search Bar -->
+    <dimen name="search_bar_height">48dp</dimen>
+    <dimen name="search_bar_corner_radius">24dp</dimen>
+    
+    <!-- Tab -->
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="tab_indicator_height">2dp</dimen>
+    
+    <!-- Shimmer -->
+    <dimen name="shimmer_corner_radius">8dp</dimen>
+</resources>

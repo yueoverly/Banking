@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Trang chủ" />
+        
+        <item
+            android:id="@+id/nav_menu_accounts"
+            android:icon="@drawable/ic_account_balance"
+            android:title="Tài khoản" />
+        
+        <item
+            android:id="@+id/nav_transfer"
+            android:icon="@drawable/ic_transfer"
+            android:title="Chuyển tiền" />
+        
+        <item
+            android:id="@+id/nav_menu_transactions"
+            android:icon="@drawable/ic_history"
+            android:title="Lịch sử giao dịch" />
+        
+    </group>
+
+    <item android:title="Tiện ích">
+        <menu>
+            
+            <item
+                android:id="@+id/nav_bills"
+                android:icon="@drawable/ic_bill"
+                android:title="Thanh toán hóa đơn" />
+            
+            <item
+                android:id="@+id/nav_phone_topup"
+                android:icon="@drawable/ic_phone"
+                android:title="Nạp tiền điện thoại" />
+            
+            <item
+                android:id="@+id/nav_qr"
+                android:icon="@drawable/ic_qr_code"
+                android:title="Quét mã QR" />
+            
+            <item
+                android:id="@+id/nav_menu_map"
+                android:icon="@drawable/ic_location"
+                android:title="Tìm chi nhánh" />
+            
+        </menu>
+    </item>
+
+    <item android:title="Cá nhân">
+        <menu>
+            
+            <item
+                android:id="@+id/nav_menu_profile"
+                android:icon="@drawable/ic_person"
+                android:title="Thông tin cá nhân" />
+            
+            <item
+                android:id="@+id/nav_menu_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Cài đặt" />
+            
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_support"
+                android:title="Hỗ trợ" />
+            
+            <item
+                android:id="@+id/nav_menu_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Đăng xuất" />
+            
+        </menu>
+    </item>
+
+</menu>
