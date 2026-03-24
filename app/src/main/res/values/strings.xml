@@ -1,683 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Name -->
     <string name="app_name">TDT Bank</string>
-    <string name="app_name_full">TDT Banking App</string>
-    
-    <!-- Common -->
-    <string name="ok">OK</string>
-    <string name="cancel">Hủy</string>
-    <string name="save">Lưu</string>
-    <string name="delete">Xóa</string>
-    <string name="edit">Sửa</string>
-    <string name="close">Đóng</string>
-    <string name="back">Quay lại</string>
-    <string name="next">Tiếp tục</string>
-    <string name="done">Hoàn tất</string>
-    <string name="confirm">Xác nhận</string>
-    <string name="submit">Gửi</string>
-    <string name="loading">Đang tải...</string>
-    <string name="error">Lỗi</string>
-    <string name="success">Thành công</string>
-    <string name="warning">Cảnh báo</string>
-    <string name="retry">Thử lại</string>
-    <string name="search">Tìm kiếm</string>
-    <string name="filter">Lọc</string>
-    <string name="all">Tất cả</string>
-    <string name="none">Không có</string>
-    <string name="yes">Có</string>
-    <string name="no">Không</string>
-    
-    <!-- Greetings -->
-    <string name="greeting_morning">Chào buổi sáng</string>
-    <string name="greeting_afternoon">Chào buổi chiều</string>
-    <string name="greeting_evening">Chào buổi tối</string>
-    <string name="welcome">Chào mừng</string>
-    <string name="welcome_back">Chào mừng trở lại</string>
-    
-    <!-- Authentication -->
+
+    <!-- Auth -->
     <string name="login">Đăng nhập</string>
-    <string name="logout">Đăng xuất</string>
     <string name="register">Đăng ký</string>
+    <string name="logout">Đăng xuất</string>
     <string name="email">Email</string>
     <string name="password">Mật khẩu</string>
     <string name="confirm_password">Xác nhận mật khẩu</string>
-    <string name="forgot_password">Quên mật khẩu?</string>
-    <string name="reset_password">Đặt lại mật khẩu</string>
     <string name="full_name">Họ và tên</string>
-    <string name="phone_number">Số điện thoại</string>
-    <string name="id_card_number">Số CMND/CCCD</string>
-    <string name="date_of_birth">Ngày sinh</string>
-    <string name="address">Địa chỉ</string>
-    <string name="gender">Giới tính</string>
-    <string name="male">Nam</string>
-    <string name="female">Nữ</string>
-    <string name="other">Khác</string>
-    <string name="already_have_account">Đã có tài khoản? Đăng nhập</string>
-    <string name="dont_have_account">Chưa có tài khoản? Đăng ký</string>
-    <string name="login_success">Đăng nhập thành công</string>
-    <string name="login_failed">Đăng nhập thất bại</string>
-    <string name="register_success">Đăng ký thành công</string>
-    <string name="register_failed">Đăng ký thất bại</string>
-    <string name="logout_confirm">Bạn có chắc chắn muốn đăng xuất?</string>
-    
-    <!-- User Types -->
-    <string name="user_type">Loại người dùng</string>
-    <string name="customer">Khách hàng</string>
-    <string name="officer">Nhân viên ngân hàng</string>
-    <string name="bank_officer">Nhân viên</string>
-    
-    <!-- Biometric -->
-    <string name="biometric_login">Đăng nhập bằng vân tay</string>
-    <string name="biometric_prompt_title">Xác thực sinh trắc học</string>
-    <string name="biometric_prompt_subtitle">Sử dụng vân tay để đăng nhập</string>
-    <string name="biometric_prompt_negative">Sử dụng mật khẩu</string>
-    <string name="biometric_success">Xác thực thành công</string>
-    <string name="biometric_failed">Xác thực thất bại</string>
-    <string name="biometric_not_available">Thiết bị không hỗ trợ sinh trắc học</string>
-    
-    <!-- Face Verification -->
-    <string name="face_verification">Xác thực khuôn mặt</string>
-    <string name="face_verification_title">Xác thực danh tính</string>
-    <string name="face_verification_subtitle">Đưa khuôn mặt vào khung hình</string>
-    <string name="face_detected">Đã phát hiện khuôn mặt</string>
-    <string name="no_face_detected">Không phát hiện khuôn mặt</string>
-    <string name="face_verification_success">Xác thực khuôn mặt thành công</string>
-    <string name="face_verification_failed">Xác thực khuôn mặt thất bại</string>
-    <string name="position_face_in_frame">Đặt khuôn mặt vào khung hình</string>
-    <string name="verifying_face">Đang xác thực...</string>
-    
-    <!-- OTP -->
-    <string name="otp_verification">Xác thực OTP</string>
-    <string name="enter_otp">Nhập mã OTP</string>
-    <string name="otp_sent">Mã OTP đã được gửi đến</string>
-    <string name="otp_expired">Mã OTP đã hết hạn</string>
-    <string name="otp_invalid">Mã OTP không hợp lệ</string>
-    <string name="otp_verified">Xác thực OTP thành công</string>
-    <string name="resend_otp">Gửi lại OTP</string>
-    <string name="otp_expires_in">Mã hết hạn sau</string>
-    
-    <!-- Accounts -->
-    <string name="accounts">Tài khoản</string>
-    <string name="my_accounts">Tài khoản của tôi</string>
-    <string name="account_number">Số tài khoản</string>
-    <string name="account_type">Loại tài khoản</string>
-    <string name="account_balance">Số dư</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="id_card">Số CMND/CCCD</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="biometric_login">Đăng nhập sinh trắc học</string>
+
+    <!-- Main -->
+    <string name="home">Trang chủ</string>
     <string name="total_balance">Tổng số dư</string>
-    <string name="available_balance">Số dư khả dụng</string>
-    <string name="checking_account">Tài khoản thanh toán</string>
-    <string name="saving_account">Tài khoản tiết kiệm</string>
-    <string name="mortgage_account">Tài khoản vay</string>
-    <string name="interest_rate">Lãi suất</string>
-    <string name="monthly_profit">Lợi nhuận tháng</string>
-    <string name="loan_amount">Số tiền vay</string>
-    <string name="monthly_payment">Thanh toán hàng tháng</string>
-    <string name="remaining_loan">Dư nợ còn lại</string>
-    <string name="account_status">Trạng thái</string>
-    <string name="account_active">Hoạt động</string>
-    <string name="account_inactive">Ngừng hoạt động</string>
-    <string name="account_blocked">Bị khóa</string>
-    <string name="create_account">Tạo tài khoản</string>
-    <string name="account_details">Chi tiết tài khoản</string>
-    <string name="view_all_accounts">Xem tất cả</string>
-    
-    <!-- Transactions -->
-    <string name="transactions">Giao dịch</string>
-    <string name="transaction_history">Lịch sử giao dịch</string>
+    <string name="quick_actions">Thao tác nhanh</string>
+    <string name="my_accounts">Tài khoản của tôi</string>
     <string name="recent_transactions">Giao dịch gần đây</string>
-    <string name="transaction_details">Chi tiết giao dịch</string>
-    <string name="transaction_id">Mã giao dịch</string>
-    <string name="transaction_date">Ngày giao dịch</string>
-    <string name="transaction_amount">Số tiền</string>
-    <string name="transaction_fee">Phí giao dịch</string>
-    <string name="transaction_total">Tổng cộng</string>
-    <string name="transaction_status">Trạng thái</string>
-    <string name="transaction_pending">Đang xử lý</string>
-    <string name="transaction_completed">Hoàn thành</string>
-    <string name="transaction_failed">Thất bại</string>
-    <string name="transaction_cancelled">Đã hủy</string>
-    <string name="transaction_description">Nội dung</string>
+    <string name="see_all">Xem tất cả</string>
     <string name="no_transactions">Chưa có giao dịch</string>
-    <string name="view_all_transactions">Xem tất cả</string>
-    
-    <!-- Transfer -->
+    <string name="no_accounts">Chưa có tài khoản</string>
+
+    <!-- Actions -->
     <string name="transfer">Chuyển tiền</string>
-    <string name="transfer_money">Chuyển tiền</string>
-    <string name="transfer_internal">Chuyển nội bộ</string>
-    <string name="transfer_external">Chuyển liên ngân hàng</string>
-    <string name="from_account">Từ tài khoản</string>
-    <string name="to_account">Đến tài khoản</string>
-    <string name="recipient_account">Tài khoản người nhận</string>
-    <string name="recipient_name">Tên người nhận</string>
-    <string name="recipient_bank">Ngân hàng nhận</string>
-    <string name="amount">Số tiền</string>
-    <string name="enter_amount">Nhập số tiền</string>
-    <string name="transfer_note">Nội dung chuyển</string>
-    <string name="transfer_success">Chuyển tiền thành công</string>
-    <string name="transfer_failed">Chuyển tiền thất bại</string>
-    <string name="insufficient_balance">Số dư không đủ</string>
-    <string name="invalid_amount">Số tiền không hợp lệ</string>
-    <string name="min_transfer_amount">Số tiền tối thiểu: %s</string>
-    <string name="max_transfer_amount">Số tiền tối đa: %s</string>
-    <string name="select_account">Chọn tài khoản</string>
-    <string name="select_bank">Chọn ngân hàng</string>
-    <string name="scan_qr">Quét mã QR</string>
-    
-    <!-- Deposit/Withdraw -->
     <string name="deposit">Nạp tiền</string>
     <string name="withdraw">Rút tiền</string>
-    <string name="deposit_money">Nạp tiền vào tài khoản</string>
-    <string name="withdraw_money">Rút tiền từ tài khoản</string>
-    <string name="deposit_success">Nạp tiền thành công</string>
-    <string name="withdraw_success">Rút tiền thành công</string>
-    
-    <!-- Bill Payment -->
-    <string name="bill_payment">Thanh toán hóa đơn</string>
-    <string name="pay_bills">Thanh toán</string>
-    <string name="electricity_bill">Tiền điện</string>
-    <string name="water_bill">Tiền nước</string>
-    <string name="internet_bill">Internet</string>
-    <string name="phone_bill">Điện thoại</string>
-    <string name="tv_bill">Truyền hình</string>
-    <string name="insurance_bill">Bảo hiểm</string>
-    <string name="bill_provider">Nhà cung cấp</string>
-    <string name="customer_code">Mã khách hàng</string>
-    <string name="bill_amount">Số tiền</string>
-    <string name="bill_due_date">Hạn thanh toán</string>
-    <string name="pay_now">Thanh toán ngay</string>
-    <string name="bill_paid">Đã thanh toán</string>
-    <string name="bill_unpaid">Chưa thanh toán</string>
-    <string name="bill_overdue">Quá hạn</string>
-    <string name="payment_success">Thanh toán thành công</string>
-    <string name="payment_failed">Thanh toán thất bại</string>
-    
-    <!-- Phone TopUp -->
-    <string name="phone_topup">Nạp tiền điện thoại</string>
-    <string name="topup_phone">Nạp tiền điện thoại</string>
-    <string name="select_carrier">Chọn nhà mạng</string>
-    <string name="select_amount">Chọn mệnh giá</string>
-    <string name="topup_success">Nạp tiền thành công</string>
-    <string name="topup_failed">Nạp tiền thất bại</string>
-    <string name="viettel">Viettel</string>
-    <string name="vinaphone">Vinaphone</string>
-    <string name="mobifone">Mobifone</string>
-    <string name="vietnamobile">Vietnamobile</string>
-    
-    <!-- QR Payment -->
-    <string name="qr_payment">Thanh toán QR</string>
-    <string name="qr_scan">Quét mã QR</string>
-    <string name="my_qr_code">Mã QR của tôi</string>
-    <string name="qr_invalid">Mã QR không hợp lệ</string>
-    <string name="camera_permission_required">Cần quyền truy cập camera</string>
-    
-    <!-- Utilities -->
-    <string name="utilities">Tiện ích</string>
+    <string name="qr_pay">QR Pay</string>
+    <string name="bill_payment">Hóa đơn</string>
+    <string name="phone_topup">Nạp điện thoại</string>
+    <string name="history">Lịch sử</string>
     <string name="services">Dịch vụ</string>
-    <string name="more_services">Dịch vụ khác</string>
-    <string name="flight_tickets">Vé máy bay</string>
-    <string name="movie_tickets">Vé xem phim</string>
-    <string name="hotel_booking">Đặt khách sạn</string>
-    <string name="ecommerce">Mua sắm online</string>
-    
-    <!-- Map & Navigation -->
-    <string name="map">Bản đồ</string>
-    <string name="find_branch">Tìm chi nhánh</string>
-    <string name="nearby_branches">Chi nhánh gần đây</string>
-    <string name="bank_branches">Chi nhánh ngân hàng</string>
-    <string name="atm_locations">Điểm ATM</string>
-    <string name="get_directions">Chỉ đường</string>
-    <string name="distance">Khoảng cách</string>
-    <string name="working_hours">Giờ làm việc</string>
-    <string name="location_permission_required">Cần quyền truy cập vị trí</string>
-    <string name="enable_location">Bật định vị</string>
-    
+    <string name="more">Thêm</string>
+
+    <!-- Account Types -->
+    <string name="checking_account">Tài khoản Thanh toán</string>
+    <string name="saving_account">Tài khoản Tiết kiệm</string>
+    <string name="mortgage_account">Tài khoản Vay</string>
+    <string name="account_detail">Chi tiết tài khoản</string>
+
+    <!-- Bills -->
+    <string name="electricity">Điện</string>
+    <string name="water">Nước</string>
+    <string name="internet">Internet</string>
+    <string name="tv">Truyền hình</string>
+
     <!-- Profile -->
     <string name="profile">Hồ sơ</string>
-    <string name="my_profile">Hồ sơ của tôi</string>
-    <string name="edit_profile">Chỉnh sửa hồ sơ</string>
-    <string name="change_password">Đổi mật khẩu</string>
-    <string name="current_password">Mật khẩu hiện tại</string>
-    <string name="new_password">Mật khẩu mới</string>
-    <string name="profile_updated">Cập nhật hồ sơ thành công</string>
-    <string name="password_changed">Đổi mật khẩu thành công</string>
-    <string name="upload_photo">Tải ảnh lên</string>
-    <string name="take_photo">Chụp ảnh</string>
-    <string name="choose_from_gallery">Chọn từ thư viện</string>
-    <string name="verified">Đã xác thực</string>
-    <string name="not_verified">Chưa xác thực</string>
-    
-    <!-- Settings -->
     <string name="settings">Cài đặt</string>
-    <string name="general_settings">Cài đặt chung</string>
-    <string name="notification_settings">Cài đặt thông báo</string>
-    <string name="security_settings">Bảo mật</string>
-    <string name="language">Ngôn ngữ</string>
-    <string name="theme">Giao diện</string>
-    <string name="dark_mode">Chế độ tối</string>
-    <string name="enable_biometric">Bật sinh trắc học</string>
-    <string name="enable_pin">Bật mã PIN</string>
-    <string name="change_pin">Đổi mã PIN</string>
-    <string name="enable_notifications">Bật thông báo</string>
-    <string name="about">Về ứng dụng</string>
-    <string name="version">Phiên bản</string>
-    <string name="privacy_policy">Chính sách bảo mật</string>
-    <string name="terms_of_service">Điều khoản sử dụng</string>
-    <string name="help_support">Hỗ trợ</string>
-    <string name="contact_us">Liên hệ</string>
-    
+    <string name="change_password">Đổi mật khẩu</string>
+
     <!-- Officer -->
-    <string name="officer_dashboard">Bảng điều khiển</string>
-    <string name="manage_customers">Quản lý khách hàng</string>
-    <string name="create_customer">Tạo khách hàng mới</string>
-    <string name="customer_list">Danh sách khách hàng</string>
-    <string name="total_customers">Tổng khách hàng</string>
-    <string name="today_transactions">Giao dịch hôm nay</string>
-    <string name="manage_rates">Quản lý lãi suất</string>
-    <string name="reports">Báo cáo</string>
-    <string name="rate_3_months">Lãi suất 3 tháng</string>
-    <string name="rate_6_months">Lãi suất 6 tháng</string>
-    <string name="rate_12_months">Lãi suất 12 tháng</string>
-    <string name="update_rates">Cập nhật lãi suất</string>
-    <string name="rates_updated">Cập nhật lãi suất thành công</string>
-    <string name="customer_created">Tạo khách hàng thành công</string>
-    <string name="customer_updated">Cập nhật khách hàng thành công</string>
-    <string name="verify_customer">Xác thực khách hàng</string>
-    
-    <!-- Navigation -->
-    <string name="nav_home">Trang chủ</string>
-    <string name="nav_accounts">Tài khoản</string>
-    <string name="nav_transactions">Giao dịch</string>
-    <string name="nav_services">Dịch vụ</string>
-    <string name="nav_profile">Cá nhân</string>
-    <string name="nav_settings">Cài đặt</string>
-    <string name="nav_map">Bản đồ</string>
-    <string name="nav_logout">Đăng xuất</string>
-    
-    <!-- Validation Messages -->
-    <string name="field_required">Trường này là bắt buộc</string>
-    <string name="invalid_email">Email không hợp lệ</string>
-    <string name="invalid_phone">Số điện thoại không hợp lệ</string>
-    <string name="invalid_id_card">Số CMND/CCCD không hợp lệ</string>
-    <string name="password_too_short">Mật khẩu phải có ít nhất 6 ký tự</string>
-    <string name="passwords_not_match">Mật khẩu không khớp</string>
-    <string name="account_not_found">Không tìm thấy tài khoản</string>
-    
-    <!-- Error Messages -->
-    <string name="error_network">Lỗi kết nối mạng</string>
-    <string name="error_server">Lỗi máy chủ</string>
-    <string name="error_unknown">Đã xảy ra lỗi</string>
-    <string name="error_try_again">Vui lòng thử lại</string>
-    <string name="error_session_expired">Phiên đăng nhập đã hết hạn</string>
-    
-    <!-- Currency -->
-    <string name="currency_vnd">VNĐ</string>
-    <string name="currency_usd">USD</string>
-    
-    <!-- Date Format -->
-    <string name="date_format">dd/MM/yyyy</string>
-    <string name="datetime_format">dd/MM/yyyy HH:mm</string>
-    <string name="time_format">HH:mm</string>
-    
-    <!-- Banks -->
-    <string name="tdt_bank">TDT Bank</string>
-    <string name="vietcombank">Vietcombank</string>
-    <string name="techcombank">Techcombank</string>
-    <string name="bidv">BIDV</string>
-    <string name="vietinbank">VietinBank</string>
-    <string name="acb">ACB</string>
-    <string name="mbbank">MB Bank</string>
-    <string name="tpbank">TPBank</string>
-    <string name="vpbank">VPBank</string>
-    <string name="sacombank">Sacombank</string>
-    
-    <!-- Quick Actions -->
-    <string name="quick_actions">Thao tác nhanh</string>
-    
-    <!-- Additional strings -->
-    <string name="tagline">Ngân hàng của bạn, luôn bên bạn</string>
-    <string name="terms_agree">Tôi đồng ý với điều khoản sử dụng</string>
-    <string name="save_beneficiary">Lưu người nhận</string>
-    <string name="transfer_fee">Phí chuyển tiền</string>
-    <string name="free">Miễn phí</string>
-    <string name="verify">Xác thực</string>
-    <string name="detecting_face">Đang nhận diện...</string>
-    <string name="account_info">Thông tin tài khoản</string>
-    <string name="opened_date">Ngày mở</string>
-    <string name="remaining_term">Kỳ hạn còn lại</string>
-    <string name="months">tháng</string>
-    <string name="customer_name">Tên khách hàng</string>
-    <string name="billing_period">Kỳ thanh toán</string>
-    <string name="amount_due">Số tiền cần thanh toán</string>
-    <string name="lookup">Tra cứu</string>
-    <string name="custom_amount">Số tiền khác</string>
-    <string name="summary">Tóm tắt</string>
-    <string name="total">Tổng cộng</string>
-    <string name="continue_text">Tiếp tục</string>
-    <string name="search_branches">Tìm chi nhánh...</string>
-    <string name="branches_found">chi nhánh</string>
-    <string name="no_branches_found">Không tìm thấy chi nhánh</string>
-    <string name="branch_name">Tên chi nhánh</string>
-    <string name="branch_address">Địa chỉ</string>
-    <string name="open">Đang mở cửa</string>
-    <string name="closed">Đã đóng cửa</string>
-    <string name="call">Gọi</string>
-    <string name="directions">Chỉ đường</string>
-    <string name="scan_qr_code">Quét mã QR</string>
-    <string name="align_qr_code">Đưa mã QR vào khung hình</string>
-    <string name="personal_info">Thông tin cá nhân</string>
-    <string name="security">Bảo mật</string>
-    <string name="enter_pin">Nhập mã PIN</string>
-    <string name="confirm_pin">Xác nhận mã PIN</string>
-    <string name="pin_not_match">Mã PIN không khớp</string>
-    <string name="enter_new_pin">Nhập mã PIN mới</string>
-    <string name="pending_requests">Yêu cầu đang chờ</string>
-    <string name="recent_customers">Khách hàng gần đây</string>
-    <string name="active">Hoạt động</string>
-    <string name="inactive">Ngừng hoạt động</string>
-    <string name="no_customers">Chưa có khách hàng</string>
-    <string name="rate_updated">Đã cập nhật lãi suất</string>
-    <string name="current_rate">Lãi suất hiện tại</string>
-    <string name="new_rate">Lãi suất mới</string>
-    <string name="apply">Áp dụng</string>
-    <string name="deposit_amount">Số tiền nạp</string>
-    <string name="withdraw_amount">Số tiền rút</string>
-    <string name="enter_description">Nhập nội dung</string>
-    <string name="change_photo">Đổi ảnh</string>
-    <string name="member_since">Thành viên từ</string>
-    <string name="account_id">ID tài khoản</string>
-    <string name="language_vietnamese">Tiếng Việt</string>
-    <string name="language_english">English</string>
-    <string name="notifications">Thông báo</string>
-    <string name="push_notifications">Thông báo đẩy</string>
-    <string name="email_notifications">Thông báo email</string>
-    <string name="sms_notifications">Thông báo SMS</string>
-    <string name="auto_detect">Tự động nhận diện</string>
-    <string name="manual_input">Nhập thủ công</string>
-    <string name="filter_all">Tất cả</string>
-    <string name="filter_transfer">Chuyển tiền</string>
-    <string name="filter_payment">Thanh toán</string>
-    <string name="filter_deposit">Nạp tiền</string>
-    <string name="filter_withdraw">Rút tiền</string>
-    <string name="no_data">Không có dữ liệu</string>
-    <string name="refresh">Làm mới</string>
-    <string name="share_qr">Chia sẻ mã QR</string>
-    <string name="download_qr">Tải mã QR</string>
-    <string name="scan_result">Kết quả quét</string>
-    <string name="processing">Đang xử lý...</string>
-    <string name="face_frame_instruction">Đặt khuôn mặt vào khung tròn</string>
-    <string name="hold_still">Giữ yên</string>
-    
-    <!-- Additional Missing Strings -->
-    <string name="account_information">Thông tin tài khoản</string>
-    <string name="account_number_hint">Nhập số tài khoản</string>
-    <string name="account_number_placeholder">0123456789</string>
-    <string name="agree_terms">Tôi đồng ý với các điều khoản</string>
-    <string name="atm_map">Bản đồ ATM</string>
-    <string name="balance_placeholder">0 VNĐ</string>
-    <string name="bill_information">Thông tin hóa đơn</string>
-    <string name="biometric_login_desc">Đăng nhập nhanh bằng vân tay hoặc khuôn mặt</string>
-    <string name="branch_placeholder">Chi nhánh</string>
-    <string name="capture">Chụp ảnh</string>
-    <string name="continue_transfer">Tiếp tục chuyển tiền</string>
-    <string name="customer_id">Mã khách hàng</string>
-    <string name="customers">Khách hàng</string>
     <string name="dashboard">Bảng điều khiển</string>
-    <string name="description_optional">Nội dung (không bắt buộc)</string>
-    <string name="didnt_receive_otp">Không nhận được mã OTP?</string>
-    <string name="ekyc_verification">Xác thực eKYC</string>
-    <string name="electricity">Điện</string>
-    <string name="external_transfer">Chuyển liên ngân hàng</string>
-    <string name="face_instructions">Đưa khuôn mặt vào khung hình và giữ yên</string>
-    <string name="gallery">Thư viện</string>
-    <string name="generate_password">Tạo mật khẩu</string>
-    <string name="good_morning">Chào buổi sáng</string>
-    <string name="history">Lịch sử</string>
-    <string name="home">Trang chủ</string>
-    <string name="initial_deposit">Số tiền gửi ban đầu</string>
-    <string name="insurance">Bảo hiểm</string>
-    <string name="interest_rates">Lãi suất</string>
-    <string name="internal_transfer">Chuyển nội bộ</string>
-    <string name="internet">Internet</string>
-    <string name="login_subtitle">Đăng nhập để tiếp tục</string>
-    <string name="login_with_biometric">Đăng nhập bằng sinh trắc học</string>
-    <string name="more">Xem thêm</string>
-    <string name="my_qr">Mã QR của tôi</string>
-    <string name="not_captured">Chưa chụp</string>
-    <string name="officer_actions">Thao tác nhân viên</string>
-    <string name="officer_name_placeholder">Nhân viên TDT Bank</string>
-    <string name="officer_portal">Cổng nhân viên</string>
-    <string name="or">hoặc</string>
-    <string name="otp_sent_message">Mã OTP đã được gửi đến số điện thoại của bạn</string>
-    <string name="pay_from">Thanh toán từ</string>
-    <string name="personal_information">Thông tin cá nhân</string>
-    <string name="phone_top_up">Nạp tiền điện thoại</string>
-    <string name="processing_transaction">Đang xử lý giao dịch...</string>
-    <string name="provider_detected">Nhà mạng được phát hiện</string>
-    <string name="qr_pay">QR Pay</string>
-    <string name="register_subtitle">Tạo tài khoản mới</string>
-    <string name="resend">Gửi lại</string>
-    <string name="scan_qr_instruction">Đưa mã QR vào khung hình để quét</string>
-    <string name="scanning_face">Đang quét khuôn mặt...</string>
-    <string name="see_all">Xem tất cả</string>
-    <string name="select_account_types">Chọn loại tài khoản</string>
-    <string name="select_bill_type">Chọn loại hóa đơn</string>
-    <string name="select_provider">Chọn nhà cung cấp</string>
-    <string name="service_fee">Phí dịch vụ</string>
-    <string name="status">Trạng thái</string>
-    <string name="tap_to_add_photo">Nhấn để thêm ảnh</string>
-    <string name="temporary_password">Mật khẩu tạm thời</string>
-    <string name="time_remaining">Thời gian còn lại</string>
-    <string name="top_up">Nạp tiền</string>
-    <string name="top_up_amount">Số tiền nạp</string>
-    <string name="top_up_now">Nạp ngay</string>
-    <string name="total_amount">Tổng số tiền</string>
-    <string name="try_again">Thử lại</string>
-    <string name="tv">Truyền hình</string>
-    <string name="user_name_placeholder">Nguyễn Văn A</string>
-    <string name="verification_failed">Xác thực thất bại</string>
-    <string name="verification_successful">Xác thực thành công</string>
-    <string name="verification_timeout">Hết thời gian xác thực</string>
-    <string name="verify_otp">Xác thực OTP</string>
-    <string name="water">Nước</string>
-    
-    <!-- Bill Types -->
-    <string name="bill_electricity">Hóa đơn điện</string>
-    <string name="bill_water">Hóa đơn nước</string>
-    <string name="bill_internet">Hóa đơn Internet</string>
-    <string name="bill_tv">Hóa đơn truyền hình</string>
-    <string name="bill_insurance">Hóa đơn bảo hiểm</string>
-    
-    <!-- Providers -->
-    <string name="evn">EVN</string>
-    <string name="sawaco">SAWACO</string>
-    <string name="vnpt">VNPT</string>
-    <string name="fpt">FPT</string>
-    <string name="viettel">Viettel</string>
-    <string name="mobifone">MobiFone</string>
-    <string name="vinaphone">VinaPhone</string>
-    <string name="vietnamobile">Vietnamobile</string>
-    
-    <!-- Phone Top Up Amounts -->
-    <string name="amount_10k">10.000đ</string>
-    <string name="amount_20k">20.000đ</string>
-    <string name="amount_50k">50.000đ</string>
-    <string name="amount_100k">100.000đ</string>
-    <string name="amount_200k">200.000đ</string>
-    <string name="amount_500k">500.000đ</string>
-    
-    <!-- Map Related -->
-    <string name="map">Bản đồ</string>
-    <string name="nearby">Gần đây</string>
+    <string name="customers">Khách hàng</string>
+    <string name="create_customer">Tạo khách hàng</string>
+    <string name="manage_customers">Quản lý khách hàng</string>
+    <string name="total_customers">Tổng khách hàng</string>
+    <string name="total_accounts">Tổng tài khoản</string>
+
+    <!-- Map -->
+    <string name="find_branches">Tìm chi nhánh</string>
+    <string name="nearby_branches">Chi nhánh gần đây</string>
     <string name="get_directions">Chỉ đường</string>
-    <string name="open_now">Đang mở cửa</string>
-    <string name="closed_now">Đã đóng cửa</string>
-    <string name="km_away">km</string>
-    <string name="working_hours">Giờ làm việc</string>
-    
-    <!-- QR Scanner -->
-    <string name="qr_scanner">Quét QR</string>
-    <string name="flash_on">Bật đèn</string>
-    <string name="flash_off">Tắt đèn</string>
-    <string name="invalid_qr">Mã QR không hợp lệ</string>
-    <string name="qr_scanned">Đã quét mã QR</string>
-    
-    <!-- Account Creation -->
-    <string name="select_account_type">Chọn loại tài khoản</string>
-    <string name="account_created">Tạo tài khoản thành công</string>
-    <string name="account_creation_failed">Tạo tài khoản thất bại</string>
-    
-    <!-- Notifications -->
-    <string name="notification_channel_transactions">Giao dịch</string>
-    <string name="notification_channel_promotions">Khuyến mãi</string>
-    <string name="notification_channel_security">Bảo mật</string>
-    
-    <!-- Dialog -->
-    <string name="dialog_confirm_delete">Bạn có chắc chắn muốn xóa?</string>
-    <string name="dialog_confirm_logout">Bạn có chắc chắn muốn đăng xuất?</string>
-    <string name="dialog_confirm_transfer">Xác nhận chuyển tiền?</string>
-    
-    <!-- Empty States -->
-    <string name="empty_accounts">Bạn chưa có tài khoản nào</string>
-    <string name="empty_transactions">Chưa có giao dịch nào</string>
-    <string name="empty_notifications">Không có thông báo mới</string>
-    
-    <!-- Success Messages -->
-    <string name="password_changed">Đổi mật khẩu thành công</string>
-    <string name="pin_changed">Đổi mã PIN thành công</string>
-    <string name="profile_updated">Cập nhật thông tin thành công</string>
-    <string name="bill_paid">Thanh toán hóa đơn thành công</string>
-    <string name="top_up_success">Nạp tiền thành công</string>
-    
-    <!-- Mortgage -->
-    <string name="mortgage">Vay</string>
-    <string name="loan_term">Kỳ hạn vay</string>
-    <string name="loan_interest">Lãi suất vay</string>
-    <string name="next_payment_date">Ngày thanh toán tiếp theo</string>
-    <string name="paid_amount">Đã thanh toán</string>
-    
-    <!-- Saving Account -->
-    <string name="term">Kỳ hạn</string>
-    <string name="maturity_date">Ngày đáo hạn</string>
-    <string name="accumulated_interest">Lãi tích lũy</string>
-    
-    <!-- Transaction Types -->
-    <string name="type_transfer_in">Tiền vào</string>
-    <string name="type_transfer_out">Tiền ra</string>
-    <string name="type_bill_payment">Thanh toán hóa đơn</string>
-    <string name="type_top_up">Nạp tiền điện thoại</string>
-    <string name="type_deposit">Nạp tiền</string>
-    <string name="type_withdraw">Rút tiền</string>
-    
-    <!-- Change Password Dialog -->
-    <string name="current_password">Mật khẩu hiện tại</string>
-    <string name="new_password">Mật khẩu mới</string>
-    <string name="confirm_new_password">Xác nhận mật khẩu mới</string>
-    
-    <!-- Change PIN Dialog -->
-    <string name="current_pin">Mã PIN hiện tại</string>
-    <string name="new_pin">Mã PIN mới</string>
-    <string name="confirm_new_pin">Xác nhận mã PIN mới</string>
-    
-    <!-- Manage Rates Dialog -->
-    <string name="saving_rates">Lãi suất tiết kiệm</string>
-    <string name="rate_1_month">Lãi suất 1 tháng (%)</string>
-    <string name="rate_3_months_percent">Lãi suất 3 tháng (%)</string>
-    <string name="rate_6_months_percent">Lãi suất 6 tháng (%)</string>
-    <string name="rate_12_months_percent">Lãi suất 12 tháng (%)</string>
-    
-    <!-- Customer Status -->
-    <string name="status_active">Hoạt động</string>
-    <string name="status_pending">Chờ duyệt</string>
-    <string name="status_blocked">Bị khóa</string>
-    <string name="status_inactive">Ngừng hoạt động</string>
-    
-    <!-- Filter Options -->
-    <string name="filter_by_status">Lọc theo trạng thái</string>
-    <string name="filter_by_date">Lọc theo ngày</string>
-    <string name="filter_by_type">Lọc theo loại</string>
-    <string name="clear_filter">Xóa bộ lọc</string>
-    
-    <!-- Face Verification Status -->
-    <string name="face_not_verified">Chưa xác thực khuôn mặt</string>
-    <string name="face_verified_status">Đã xác thực khuôn mặt</string>
-    <string name="setup_face_verification">Thiết lập xác thực khuôn mặt</string>
-    
-    <!-- Officer Dashboard Stats -->
-    <string name="total_transactions_today">Giao dịch hôm nay</string>
-    <string name="pending_verifications">Chờ xác thực</string>
-    <string name="new_customers_today">Khách hàng mới hôm nay</string>
-    
-    <!-- Amount Input Dialog -->
-    <string name="enter_amount_title">Nhập số tiền</string>
-    <string name="deposit_title">Nạp tiền vào tài khoản</string>
-    <string name="withdraw_title">Rút tiền từ tài khoản</string>
-    
-    <!-- Beneficiary -->
-    <string name="saved_beneficiaries">Người nhận đã lưu</string>
-    <string name="add_beneficiary">Thêm người nhận</string>
-    <string name="no_beneficiaries">Chưa có người nhận nào được lưu</string>
-    
-    <!-- Quick Actions -->
-    <string name="action_transfer">Chuyển tiền</string>
-    <string name="action_pay_bill">Thanh toán</string>
-    <string name="action_top_up">Nạp tiền</string>
-    <string name="action_qr_scan">Quét QR</string>
-    <string name="action_history">Lịch sử</string>
-    <string name="action_map">Tìm ATM</string>
-    
-    <!-- Confirmation -->
-    <string name="confirm_transaction">Xác nhận giao dịch</string>
-    <string name="review_details">Kiểm tra thông tin</string>
-    <string name="transaction_will_be_processed">Giao dịch sẽ được xử lý</string>
-    
-    <!-- Session -->
-    <string name="session_expired">Phiên đăng nhập đã hết hạn</string>
-    <string name="please_login_again">Vui lòng đăng nhập lại</string>
-    
-    <!-- Permission -->
-    <string name="camera_permission_required">Cần quyền truy cập camera</string>
-    <string name="location_permission_required">Cần quyền truy cập vị trí</string>
-    <string name="permission_denied">Quyền truy cập bị từ chối</string>
-    <string name="grant_permission">Cấp quyền</string>
-    
-    <!-- Network -->
-    <string name="no_internet">Không có kết nối Internet</string>
-    <string name="check_connection">Vui lòng kiểm tra kết nối mạng</string>
-    <string name="connection_error">Lỗi kết nối</string>
-    
-    <!-- Officer Actions -->
-    <string name="approve">Duyệt</string>
-    <string name="reject">Từ chối</string>
-    <string name="block_customer">Khóa tài khoản</string>
-    <string name="unblock_customer">Mở khóa tài khoản</string>
-    <string name="view_details">Xem chi tiết</string>
-    
-    <!-- Misc -->
-    <string name="copy">Sao chép</string>
-    <string name="copied">Đã sao chép</string>
-    <string name="share">Chia sẻ</string>
-    <string name="print">In</string>
-    <string name="export">Xuất</string>
-    <string name="select_date">Chọn ngày</string>
-    <string name="from_date">Từ ngày</string>
-    <string name="to_date">Đến ngày</string>
-    <string name="today">Hôm nay</string>
-    <string name="yesterday">Hôm qua</string>
-    <string name="this_week">Tuần này</string>
-    <string name="this_month">Tháng này</string>
-    <string name="last_month">Tháng trước</string>
-    <string name="custom_range">Tùy chọn</string>
-    <string name="qr_scan">Quét QR</string>
-    <string name="pay_bills">Thanh toán hóa đơn</string>
-    <string name="select_amount">Chọn mệnh giá</string>
-    <string name="select_bank">Chọn ngân hàng</string>
-    <string name="change_password">Đổi mật khẩu</string>
-    <string name="deposit">Nạp tiền</string>
-    <string name="withdraw">Rút tiền</string>
-    <string name="profile">Hồ sơ</string>
-    <string name="services">Dịch vụ</string>
-    <string name="settings">Cài đặt</string>
-    <string name="bill_payment">Thanh toán hóa đơn</string>
-    <string name="pay_now">Thanh toán ngay</string>
-    <string name="distance">Khoảng cách</string>
+
+    <!-- OTP -->
+    <string name="enter_otp">Nhập mã OTP</string>
+    <string name="otp_sent">Mã OTP đã được gửi</string>
+    <string name="resend_otp">Gửi lại mã</string>
+    <string name="verify">Xác minh</string>
+
+    <!-- Common -->
+    <string name="cancel">Hủy</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="save">Lưu</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Sửa</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="loading">Đang tải…</string>
+    <string name="success">Thành công</string>
+    <string name="error">Lỗi</string>
+    <string name="amount">Số tiền</string>
+    <string name="description">Mô tả</string>
+    <string name="status">Trạng thái</string>
+    <string name="active">Hoạt động</string>
+    <string name="balance">Số dư</string>
+    <string name="interest_rate">Lãi suất</string>
 </resources>

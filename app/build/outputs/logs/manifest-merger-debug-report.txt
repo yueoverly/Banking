@@ -1,0 +1,991 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:31:9-39:20
+	android:grantUriPermissions
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:35:13-47
+	android:authorities
+		INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:33:13-64
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:32:13-62
+manifest
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:2:1-70:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yueov\.gradle\caches\8.10\transforms\3784692391ba06da05552a79cab51036\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yueov\.gradle\caches\8.10\transforms\1e4fc7978367580095dfd978d63e1f23\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-video:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\cc1a693b087716f45ee4dfd852af74c4\transformed\jetified-camera-video-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\6b2dff1faee82b68dd4dfd7074017bc9\transformed\jetified-camera-lifecycle-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f845dee4cb940cc186e9bc92ad99777f\transformed\jetified-camera-core-1.3.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\7d2857ad8db1c7eef7ccf9aef49f1755\transformed\jetified-camera-view-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c7f8a8e6764b246877aa708989986134\transformed\biometric-1.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\b88eed9f5d5f6500eca25227a31b84a1\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\6d96d2537a05035acc5b13fd64412f2d\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\yueov\.gradle\caches\8.10\transforms\7125d794f0e9e1c6a76f4fb01d131e5e\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\yueov\.gradle\caches\8.10\transforms\6d40201a419ac083343ea516bb30ee2b\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\69b4154ae314a0d3e3f46d6351445129\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\eb905f968e272188e48e6add5abfe520\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0a0d9353de3fecb45d3eaa1c60020388\transformed\jetified-glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\0832e8b14f19861b3860b29773023f0b\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:face-detection:16.1.5] C:\Users\yueov\.gradle\caches\8.10\transforms\5f89ece0137261ac0594bf5ea47c72d2\transformed\jetified-face-detection-16.1.5\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\yueov\.gradle\caches\8.10\transforms\659431ed9867abffaea8ed7b5479f457\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f2f470cf9192c76edf852450add0fce6\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\8d8c375977fb3c8ec70bb12f03fd2672\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\f2a1e3f84690ca78fb12dbe1bef8f8af\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\yueov\.gradle\caches\8.10\transforms\530b2cf6a0474d5d35c1680735166ac1\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\52d9dea5dd9cf715769fedd2493a55dd\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\65462a8dde951c6051fb48128137600e\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b86e492a230917f530cf673a2ac5f87c\transformed\jetified-vision-interfaces-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e3fe48eb5552fb5da251126ce249295d\transformed\jetified-activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\688011b07b89a1762c69b52bd89e6735\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0715920d1c02fdcd0ca0feb89cba7abd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\33afb815e2d6753ed1d9bbbcc87f9b4e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\yueov\.gradle\caches\8.10\transforms\a1155ac62ca8ddb3d7ae38f25271ef88\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\1ba3622042764facfd7dc59b368bb859\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\e890982d5009ee8d2c8305e73b15ec05\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\357b59c39877128067ea1905c7533c4a\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\87a2e58c96c3e07a8095a91fbfa46f44\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\885b67aeae8fdbe1cb0a0eba1311e435\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\yueov\.gradle\caches\8.10\transforms\85294336a96ea4239f92bbbc383a346a\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\205bfa0d9dc6e674394c3b902ec9305d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\yueov\.gradle\caches\8.10\transforms\11fb7eb5c7f2fa2f2f4644e0d7c9bb75\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\3d031e17c398d2db255d440c847fd93c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\6fc52c9300993e61400371d120dd42c9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\63511496489ed5eec7690464df640c75\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\77d2368c2df157b9ac023301b0c2e157\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\51ed3f1c9f718e0cc86bda313905dbe9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c5c5c1e8d2ff9930f8e1515779e3129e\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\5afbdc9f0e3cd3d6fbbfdb07ebf0b970\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\da32b94b40b3bd8bf609c08e7c70f79c\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e00abd60a504457439a50d4c9a818df2\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\deb88a6f928cc350616901196c648dce\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c8fba42fff9f108111dbcb783e8ab15e\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0888d25b95521eaf5ca08c9a6d13bdf7\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:17:1-56:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\6e8413b2084c594139c538556366d07f\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\ecb6005cfbc8bd23884e81bb1097b0de\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\34a888b5a057945fcdbd14f94b1c2ced\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\yueov\.gradle\caches\8.10\transforms\e2e392ec30816cdc0b20271779ddd994\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\yueov\.gradle\caches\8.10\transforms\3c5be421439af888ad9f24777fa8ed81\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\yueov\.gradle\caches\8.10\transforms\51f8eae83ed3db7ad1438d68c2c06f9e\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4de99bab4c1aa8b257e5062d378cf26a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\daaba1d63f7017a70d252981f4b7f273\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\yueov\.gradle\caches\8.10\transforms\2cd5d38942b5bb9484cd377593deeb59\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0b4fc76ca4129d64c1b158a9c33e0cc7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\dc6168aad9f17b3440d5ea9bbf930e97\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\265407af9b3c91d6d21ed87a45b1007e\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cffe4003c43a3d668af2b45503cb1124\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\440834f2282d2f0ab77cc5434f718788\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\d4b128b573df77261d6d52e1b31e035b\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\yueov\.gradle\caches\8.10\transforms\7ad4d07f0e135ab8a58e4cfbe987c42f\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\677d26bab74c7ad1175dec3da0be0423\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\yueov\.gradle\caches\8.10\transforms\a524d51d1af1378a56a5c17d11005e99\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\yueov\.gradle\caches\8.10\transforms\530b2cf6a0474d5d35c1680735166ac1\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\yueov\.gradle\caches\8.10\transforms\530b2cf6a0474d5d35c1680735166ac1\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\yueov\.gradle\caches\8.10\transforms\530b2cf6a0474d5d35c1680735166ac1\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\yueov\.gradle\caches\8.10\transforms\530b2cf6a0474d5d35c1680735166ac1\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\yueov\.gradle\caches\8.10\transforms\7ad4d07f0e135ab8a58e4cfbe987c42f\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\yueov\.gradle\caches\8.10\transforms\7ad4d07f0e135ab8a58e4cfbe987c42f\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:9:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:10:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c7f8a8e6764b246877aa708989986134\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c7f8a8e6764b246877aa708989986134\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:10:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:11:5-12:38
+	android:maxSdkVersion
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:12:9-35
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:11:22-77
+uses-feature#android.hardware.camera
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:14:5-85
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:14:58-82
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:14:19-57
+application
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:16:5-69:19
+INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:16:5-69:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yueov\.gradle\caches\8.10\transforms\3784692391ba06da05552a79cab51036\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yueov\.gradle\caches\8.10\transforms\3784692391ba06da05552a79cab51036\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yueov\.gradle\caches\8.10\transforms\1e4fc7978367580095dfd978d63e1f23\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yueov\.gradle\caches\8.10\transforms\1e4fc7978367580095dfd978d63e1f23\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f845dee4cb940cc186e9bc92ad99777f\transformed\jetified-camera-core-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f845dee4cb940cc186e9bc92ad99777f\transformed\jetified-camera-core-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\0832e8b14f19861b3860b29773023f0b\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\0832e8b14f19861b3860b29773023f0b\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\8d8c375977fb3c8ec70bb12f03fd2672\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\8d8c375977fb3c8ec70bb12f03fd2672\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\f2a1e3f84690ca78fb12dbe1bef8f8af\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\f2a1e3f84690ca78fb12dbe1bef8f8af\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\52d9dea5dd9cf715769fedd2493a55dd\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\52d9dea5dd9cf715769fedd2493a55dd\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\65462a8dde951c6051fb48128137600e\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\65462a8dde951c6051fb48128137600e\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\yueov\.gradle\caches\8.10\transforms\85294336a96ea4239f92bbbc383a346a\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\yueov\.gradle\caches\8.10\transforms\85294336a96ea4239f92bbbc383a346a\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\205bfa0d9dc6e674394c3b902ec9305d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\205bfa0d9dc6e674394c3b902ec9305d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0888d25b95521eaf5ca08c9a6d13bdf7\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0888d25b95521eaf5ca08c9a6d13bdf7\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4de99bab4c1aa8b257e5062d378cf26a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4de99bab4c1aa8b257e5062d378cf26a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\dc6168aad9f17b3440d5ea9bbf930e97\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\dc6168aad9f17b3440d5ea9bbf930e97\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\yueov\.gradle\caches\8.10\transforms\a524d51d1af1378a56a5c17d11005e99\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\yueov\.gradle\caches\8.10\transforms\a524d51d1af1378a56a5c17d11005e99\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:21:9-54
+	tools:targetApi
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:24:9-29
+	android:icon
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:23:9-45
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:17:9-43
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:26:9-28:71
+	android:value
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:28:13-68
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:27:13-58
+activity#com.example.myapplication.activities.SplashActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:41:9-46:20
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:41:61-84
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:41:19-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:42:13-45:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:44:27-74
+activity#com.example.myapplication.activities.LoginActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:48:9-87
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:48:60-84
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:48:19-59
+activity#com.example.myapplication.activities.RegisterActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:49:9-90
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:49:63-87
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:49:19-62
+activity#com.example.myapplication.activities.MainActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:50:9-86
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:50:59-83
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:50:19-58
+activity#com.example.myapplication.activities.OfficerMainActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:51:9-93
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:51:66-90
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:51:19-65
+activity#com.example.myapplication.activities.AccountDetailActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:52:9-95
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:52:68-92
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:52:19-67
+activity#com.example.myapplication.activities.TransferActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:53:9-90
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:53:63-87
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:53:19-62
+activity#com.example.myapplication.activities.BillPaymentActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:54:9-93
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:54:66-90
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:54:19-65
+activity#com.example.myapplication.activities.PhoneTopUpActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:55:9-92
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:55:65-89
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:55:19-64
+activity#com.example.myapplication.activities.TransactionHistoryActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:56:9-100
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:56:73-97
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:56:19-72
+activity#com.example.myapplication.activities.ProfileActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:57:9-89
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:57:62-86
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:57:19-61
+activity#com.example.myapplication.activities.MapActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:58:9-85
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:58:58-82
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:58:19-57
+activity#com.example.myapplication.activities.QRScannerActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:59:9-91
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:59:64-88
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:59:19-63
+activity#com.example.myapplication.activities.QRCodeActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:60:9-88
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:60:61-85
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:60:19-60
+activity#com.example.myapplication.activities.OTPVerificationActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:61:9-97
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:61:70-94
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:61:19-69
+activity#com.example.myapplication.activities.FaceVerificationActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:62:9-98
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:62:71-95
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:62:19-70
+activity#com.example.myapplication.activities.CreateCustomerActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:63:9-96
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:63:69-93
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:63:19-68
+activity#com.example.myapplication.activities.ManageCustomersActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:64:9-97
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:64:70-94
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:64:19-69
+activity#com.example.myapplication.activities.ManageInterestRatesActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:65:9-101
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:65:74-98
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:65:19-73
+activity#com.example.myapplication.activities.OpenAccountActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:66:9-93
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:66:66-90
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:66:19-65
+activity#com.example.myapplication.activities.CustomerDetailActivity
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:67:9-96
+	android:exported
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:67:69-93
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:67:19-68
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:36:13-38:54
+	android:resource
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:38:17-51
+	android:name
+		ADDED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml:37:17-67
+uses-sdk
+INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yueov\.gradle\caches\8.10\transforms\3784692391ba06da05552a79cab51036\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yueov\.gradle\caches\8.10\transforms\3784692391ba06da05552a79cab51036\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yueov\.gradle\caches\8.10\transforms\1e4fc7978367580095dfd978d63e1f23\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yueov\.gradle\caches\8.10\transforms\1e4fc7978367580095dfd978d63e1f23\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-video:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\cc1a693b087716f45ee4dfd852af74c4\transformed\jetified-camera-video-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\cc1a693b087716f45ee4dfd852af74c4\transformed\jetified-camera-video-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\6b2dff1faee82b68dd4dfd7074017bc9\transformed\jetified-camera-lifecycle-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\6b2dff1faee82b68dd4dfd7074017bc9\transformed\jetified-camera-lifecycle-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f845dee4cb940cc186e9bc92ad99777f\transformed\jetified-camera-core-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f845dee4cb940cc186e9bc92ad99777f\transformed\jetified-camera-core-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\7d2857ad8db1c7eef7ccf9aef49f1755\transformed\jetified-camera-view-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\7d2857ad8db1c7eef7ccf9aef49f1755\transformed\jetified-camera-view-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c7f8a8e6764b246877aa708989986134\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c7f8a8e6764b246877aa708989986134\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\b88eed9f5d5f6500eca25227a31b84a1\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\b88eed9f5d5f6500eca25227a31b84a1\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\6d96d2537a05035acc5b13fd64412f2d\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\6d96d2537a05035acc5b13fd64412f2d\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\yueov\.gradle\caches\8.10\transforms\7125d794f0e9e1c6a76f4fb01d131e5e\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\yueov\.gradle\caches\8.10\transforms\7125d794f0e9e1c6a76f4fb01d131e5e\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\yueov\.gradle\caches\8.10\transforms\6d40201a419ac083343ea516bb30ee2b\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\yueov\.gradle\caches\8.10\transforms\6d40201a419ac083343ea516bb30ee2b\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\69b4154ae314a0d3e3f46d6351445129\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\69b4154ae314a0d3e3f46d6351445129\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\eb905f968e272188e48e6add5abfe520\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\eb905f968e272188e48e6add5abfe520\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0a0d9353de3fecb45d3eaa1c60020388\transformed\jetified-glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0a0d9353de3fecb45d3eaa1c60020388\transformed\jetified-glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\0832e8b14f19861b3860b29773023f0b\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\0832e8b14f19861b3860b29773023f0b\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:face-detection:16.1.5] C:\Users\yueov\.gradle\caches\8.10\transforms\5f89ece0137261ac0594bf5ea47c72d2\transformed\jetified-face-detection-16.1.5\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.1.5] C:\Users\yueov\.gradle\caches\8.10\transforms\5f89ece0137261ac0594bf5ea47c72d2\transformed\jetified-face-detection-16.1.5\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\yueov\.gradle\caches\8.10\transforms\659431ed9867abffaea8ed7b5479f457\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\yueov\.gradle\caches\8.10\transforms\659431ed9867abffaea8ed7b5479f457\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f2f470cf9192c76edf852450add0fce6\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f2f470cf9192c76edf852450add0fce6\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\8d8c375977fb3c8ec70bb12f03fd2672\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\8d8c375977fb3c8ec70bb12f03fd2672\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\f2a1e3f84690ca78fb12dbe1bef8f8af\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\f2a1e3f84690ca78fb12dbe1bef8f8af\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\yueov\.gradle\caches\8.10\transforms\530b2cf6a0474d5d35c1680735166ac1\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] C:\Users\yueov\.gradle\caches\8.10\transforms\530b2cf6a0474d5d35c1680735166ac1\transformed\jetified-recaptcha-18.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\52d9dea5dd9cf715769fedd2493a55dd\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\52d9dea5dd9cf715769fedd2493a55dd\transformed\jetified-integrity-1.1.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\65462a8dde951c6051fb48128137600e\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\65462a8dde951c6051fb48128137600e\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b86e492a230917f530cf673a2ac5f87c\transformed\jetified-vision-interfaces-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b86e492a230917f530cf673a2ac5f87c\transformed\jetified-vision-interfaces-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e3fe48eb5552fb5da251126ce249295d\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e3fe48eb5552fb5da251126ce249295d\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\688011b07b89a1762c69b52bd89e6735\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\688011b07b89a1762c69b52bd89e6735\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0715920d1c02fdcd0ca0feb89cba7abd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0715920d1c02fdcd0ca0feb89cba7abd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\33afb815e2d6753ed1d9bbbcc87f9b4e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\33afb815e2d6753ed1d9bbbcc87f9b4e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\yueov\.gradle\caches\8.10\transforms\a1155ac62ca8ddb3d7ae38f25271ef88\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\yueov\.gradle\caches\8.10\transforms\a1155ac62ca8ddb3d7ae38f25271ef88\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\1ba3622042764facfd7dc59b368bb859\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\1ba3622042764facfd7dc59b368bb859\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\e890982d5009ee8d2c8305e73b15ec05\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\e890982d5009ee8d2c8305e73b15ec05\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\357b59c39877128067ea1905c7533c4a\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\357b59c39877128067ea1905c7533c4a\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\87a2e58c96c3e07a8095a91fbfa46f44\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\87a2e58c96c3e07a8095a91fbfa46f44\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\885b67aeae8fdbe1cb0a0eba1311e435\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\885b67aeae8fdbe1cb0a0eba1311e435\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\yueov\.gradle\caches\8.10\transforms\85294336a96ea4239f92bbbc383a346a\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\yueov\.gradle\caches\8.10\transforms\85294336a96ea4239f92bbbc383a346a\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\205bfa0d9dc6e674394c3b902ec9305d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\205bfa0d9dc6e674394c3b902ec9305d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\yueov\.gradle\caches\8.10\transforms\11fb7eb5c7f2fa2f2f4644e0d7c9bb75\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\yueov\.gradle\caches\8.10\transforms\11fb7eb5c7f2fa2f2f4644e0d7c9bb75\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\3d031e17c398d2db255d440c847fd93c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\3d031e17c398d2db255d440c847fd93c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\6fc52c9300993e61400371d120dd42c9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\6fc52c9300993e61400371d120dd42c9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\63511496489ed5eec7690464df640c75\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\63511496489ed5eec7690464df640c75\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\77d2368c2df157b9ac023301b0c2e157\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\77d2368c2df157b9ac023301b0c2e157\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\51ed3f1c9f718e0cc86bda313905dbe9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\51ed3f1c9f718e0cc86bda313905dbe9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c5c5c1e8d2ff9930f8e1515779e3129e\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c5c5c1e8d2ff9930f8e1515779e3129e\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\5afbdc9f0e3cd3d6fbbfdb07ebf0b970\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\5afbdc9f0e3cd3d6fbbfdb07ebf0b970\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\da32b94b40b3bd8bf609c08e7c70f79c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\da32b94b40b3bd8bf609c08e7c70f79c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e00abd60a504457439a50d4c9a818df2\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e00abd60a504457439a50d4c9a818df2\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\deb88a6f928cc350616901196c648dce\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\deb88a6f928cc350616901196c648dce\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c8fba42fff9f108111dbcb783e8ab15e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c8fba42fff9f108111dbcb783e8ab15e\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0888d25b95521eaf5ca08c9a6d13bdf7\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0888d25b95521eaf5ca08c9a6d13bdf7\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\6e8413b2084c594139c538556366d07f\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\6e8413b2084c594139c538556366d07f\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\ecb6005cfbc8bd23884e81bb1097b0de\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\ecb6005cfbc8bd23884e81bb1097b0de\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\34a888b5a057945fcdbd14f94b1c2ced\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\34a888b5a057945fcdbd14f94b1c2ced\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\yueov\.gradle\caches\8.10\transforms\e2e392ec30816cdc0b20271779ddd994\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\yueov\.gradle\caches\8.10\transforms\e2e392ec30816cdc0b20271779ddd994\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\yueov\.gradle\caches\8.10\transforms\3c5be421439af888ad9f24777fa8ed81\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\yueov\.gradle\caches\8.10\transforms\3c5be421439af888ad9f24777fa8ed81\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\yueov\.gradle\caches\8.10\transforms\51f8eae83ed3db7ad1438d68c2c06f9e\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\yueov\.gradle\caches\8.10\transforms\51f8eae83ed3db7ad1438d68c2c06f9e\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4de99bab4c1aa8b257e5062d378cf26a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4de99bab4c1aa8b257e5062d378cf26a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\daaba1d63f7017a70d252981f4b7f273\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\daaba1d63f7017a70d252981f4b7f273\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\yueov\.gradle\caches\8.10\transforms\2cd5d38942b5bb9484cd377593deeb59\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\yueov\.gradle\caches\8.10\transforms\2cd5d38942b5bb9484cd377593deeb59\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0b4fc76ca4129d64c1b158a9c33e0cc7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\0b4fc76ca4129d64c1b158a9c33e0cc7\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\dc6168aad9f17b3440d5ea9bbf930e97\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\dc6168aad9f17b3440d5ea9bbf930e97\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\265407af9b3c91d6d21ed87a45b1007e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\265407af9b3c91d6d21ed87a45b1007e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cffe4003c43a3d668af2b45503cb1124\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cffe4003c43a3d668af2b45503cb1124\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\440834f2282d2f0ab77cc5434f718788\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\440834f2282d2f0ab77cc5434f718788\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\d4b128b573df77261d6d52e1b31e035b\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\d4b128b573df77261d6d52e1b31e035b\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\yueov\.gradle\caches\8.10\transforms\7ad4d07f0e135ab8a58e4cfbe987c42f\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\yueov\.gradle\caches\8.10\transforms\7ad4d07f0e135ab8a58e4cfbe987c42f\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\677d26bab74c7ad1175dec3da0be0423\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\yueov\.gradle\caches\8.10\transforms\677d26bab74c7ad1175dec3da0be0423\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\yueov\.gradle\caches\8.10\transforms\a524d51d1af1378a56a5c17d11005e99\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\yueov\.gradle\caches\8.10\transforms\a524d51d1af1378a56a5c17d11005e99\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yueov\Downloads\BankingApp_Full\BankingApp\app\src\main\AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f845dee4cb940cc186e9bc92ad99777f\transformed\jetified-camera-core-1.3.1\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\f845dee4cb940cc186e9bc92ad99777f\transformed\jetified-camera-core-1.3.1\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\yueov\.gradle\caches\8.10\transforms\033033febc132d35f2dd7ceab545eb88\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c7f8a8e6764b246877aa708989986134\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c7f8a8e6764b246877aa708989986134\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4de99bab4c1aa8b257e5062d378cf26a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4de99bab4c1aa8b257e5062d378cf26a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\bcf6185f0eb51b2d0b9fb779287c62ef\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\yueov\.gradle\caches\8.10\transforms\2a4aaded121dac2141815cd6d7e94b09\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\558f270f9ff58ce830e041073b183303\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] C:\Users\yueov\.gradle\caches\8.10\transforms\d5716c70f24f5ecf565b1955990c5fe8\transformed\jetified-firebase-firestore-24.10.0\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\c297b69c783f8f8d4bbc79d7d01848f8\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4523a6ce289317a3401e8a8edd4ba4fe\transformed\jetified-play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\edf9898095f6d3953c81a66e2b75c6f4\transformed\jetified-vision-common-17.1.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\e6bb10195315ad24de1cf723c5085b4a\transformed\jetified-common-18.1.0\AndroidManifest.xml:21:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.1] C:\Users\yueov\.gradle\caches\8.10\transforms\fe37911eb8e36bc835991f4b6b4aad7b\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:29:17-117
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\f2a1e3f84690ca78fb12dbe1bef8f8af\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\f2a1e3f84690ca78fb12dbe1bef8f8af\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\f2a1e3f84690ca78fb12dbe1bef8f8af\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\f2a1e3f84690ca78fb12dbe1bef8f8af\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\86a1d260bb2071be56f7989ef9544436\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\yueov\.gradle\caches\8.10\transforms\c3b00c22aae22c3bb3cae7ac12f2def4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yueov\.gradle\caches\8.10\transforms\4f41592aedd793ffaed6da4cc85b3f51\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\205bfa0d9dc6e674394c3b902ec9305d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\205bfa0d9dc6e674394c3b902ec9305d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\yueov\.gradle\caches\8.10\transforms\205bfa0d9dc6e674394c3b902ec9305d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yueov\.gradle\caches\8.10\transforms\1e5c55362f77859a706ee494932f691b\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\b3da171f3b92ff2513063915585fa047\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\yueov\.gradle\caches\8.10\transforms\7d15229b9a6eb6173fa4b0827e7417c9\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\yueov\.gradle\caches\8.10\transforms\e5a057dd848b37920befe76ae325f5de\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yueov\.gradle\caches\8.10\transforms\cd3a215cdc04c312ef662e9f3c8b98ea\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

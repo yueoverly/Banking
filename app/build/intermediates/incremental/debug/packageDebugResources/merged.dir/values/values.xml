@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F5F5F5</color>
+    <color name="black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="checking">#1E88E5</color>
+    <color name="checking_card">#1E88E5</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="error">#F44336</color>
+    <color name="error_light">#FFCDD2</color>
+    <color name="expense">#F44336</color>
+    <color name="income">#4CAF50</color>
+    <color name="input_background">#F5F5F5</color>
+    <color name="mortgage">#E53935</color>
+    <color name="mortgage_card">#E53935</color>
+    <color name="primary">#1E88E5</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#64B5F6</color>
+    <color name="saving">#43A047</color>
+    <color name="saving_card">#43A047</color>
+    <color name="status_active">#4CAF50</color>
+    <color name="status_closed">#757575</color>
+    <color name="status_frozen">#2196F3</color>
+    <color name="status_inactive">#9E9E9E</color>
+    <color name="status_pending">#FF9800</color>
+    <color name="success">#4CAF50</color>
+    <color name="success_light">#C8E6C9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="transfer_blue">#2196F3</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning">#FF9800</color>
+    <color name="warning_light">#FFE0B2</color>
+    <color name="white">#FFFFFF</color>
+    <string name="account_detail">Chi tiết tài khoản</string>
+    <string name="active">Hoạt động</string>
+    <string name="amount">Số tiền</string>
+    <string name="app_name">TDT Bank</string>
+    <string name="balance">Số dư</string>
+    <string name="bill_payment">Hóa đơn</string>
+    <string name="biometric_login">Đăng nhập sinh trắc học</string>
+    <string name="cancel">Hủy</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="checking_account">Tài khoản Thanh toán</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="create_customer">Tạo khách hàng</string>
+    <string name="customers">Khách hàng</string>
+    <string name="dashboard">Bảng điều khiển</string>
+    <string name="delete">Xóa</string>
+    <string name="deposit">Nạp tiền</string>
+    <string name="description">Mô tả</string>
+    <string name="edit">Sửa</string>
+    <string name="electricity">Điện</string>
+    <string name="email">Email</string>
+    <string name="enter_otp">Nhập mã OTP</string>
+    <string name="error">Lỗi</string>
+    <string name="find_branches">Tìm chi nhánh</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="gcm_defaultSenderId" translatable="false">839009959558</string>
+    <string name="get_directions">Chỉ đường</string>
+    <string name="google_api_key" translatable="false">AIzaSyANNR_eEQpYAIkCoxwYERlfxJI0SFi5rJ8</string>
+    <string name="google_app_id" translatable="false">1:839009959558:android:6ade32b761e0ddce609b07</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANNR_eEQpYAIkCoxwYERlfxJI0SFi5rJ8</string>
+    <string name="google_storage_bucket" translatable="false">bank-149b1.firebasestorage.app</string>
+    <string name="history">Lịch sử</string>
+    <string name="home">Trang chủ</string>
+    <string name="id_card">Số CMND/CCCD</string>
+    <string name="interest_rate">Lãi suất</string>
+    <string name="internet">Internet</string>
+    <string name="loading">Đang tải…</string>
+    <string name="login">Đăng nhập</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="manage_customers">Quản lý khách hàng</string>
+    <string name="more">Thêm</string>
+    <string name="mortgage_account">Tài khoản Vay</string>
+    <string name="my_accounts">Tài khoản của tôi</string>
+    <string name="nearby_branches">Chi nhánh gần đây</string>
+    <string name="no_accounts">Chưa có tài khoản</string>
+    <string name="no_transactions">Chưa có giao dịch</string>
+    <string name="otp_sent">Mã OTP đã được gửi</string>
+    <string name="password">Mật khẩu</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="phone_topup">Nạp điện thoại</string>
+    <string name="profile">Hồ sơ</string>
+    <string name="project_id" translatable="false">bank-149b1</string>
+    <string name="qr_pay">QR Pay</string>
+    <string name="quick_actions">Thao tác nhanh</string>
+    <string name="recent_transactions">Giao dịch gần đây</string>
+    <string name="register">Đăng ký</string>
+    <string name="resend_otp">Gửi lại mã</string>
+    <string name="save">Lưu</string>
+    <string name="saving_account">Tài khoản Tiết kiệm</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="see_all">Xem tất cả</string>
+    <string name="services">Dịch vụ</string>
+    <string name="settings">Cài đặt</string>
+    <string name="status">Trạng thái</string>
+    <string name="success">Thành công</string>
+    <string name="total_accounts">Tổng tài khoản</string>
+    <string name="total_balance">Tổng số dư</string>
+    <string name="total_customers">Tổng khách hàng</string>
+    <string name="transfer">Chuyển tiền</string>
+    <string name="tv">Truyền hình</string>
+    <string name="verify">Xác minh</string>
+    <string name="water">Nước</string>
+    <string name="withdraw">Rút tiền</string>
+    <style name="Theme.TDTBank" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>

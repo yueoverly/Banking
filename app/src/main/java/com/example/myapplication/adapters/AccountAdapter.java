@@ -1,166 +1,105 @@
 package com.example.myapplication.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.R;
+import com.example.myapplication.activities.AccountDetailActivity;
 import com.example.myapplication.models.Account;
 import com.example.myapplication.utils.FormatUtils;
 
 import java.util.List;
 
-public class AccountAdapter extends RecyclerView.Adapter<AccountAdapter.AccountViewHolder> {
+public class AccountAdapter extends RecyclerView.Adapter<AccountAdapter.ViewHolder> {
 
-    private Context context;
-    private List<Account> accountList;
-    private OnAccountClickListener listener;
+    private final Context context;
+    private final List<Account> accounts;
 
-    public interface OnAccountClickListener {
-        void onAccountClick(Account account);
-    }
-
-    public AccountAdapter(Context context, List<Account> accountList, OnAccountClickListener listener) {
+    public AccountAdapter(Context context, List<Account> accounts) {
         this.context = context;
-        this.accountList = accountList;
-        this.listener = listener;
+        this.accounts = accounts;
     }
 
     @NonNull
     @Override
-    public AccountViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_account, parent, false);
-        return new AccountViewHolder(view);
+        return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull AccountViewHolder holder, int position) {
-        Account account = accountList.get(position);
-        holder.bind(account);
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        Account account = accounts.get(position);
+        
+        // Set account type name and icon
+        switch (account.getAccountType()) {
+            case CHECKING:
+                holder.tvAccountType.setText("Tài khoản Thanh toán");
+                holder.ivIcon.setImageResource(R.drawable.ic_checking);
+                holder.cardBackground.setBackgroundResource(R.drawable.bg_gradient_primary);
+                break;
+            case SAVING:
+                holder.tvAccountType.setText("Tài khoản Tiết kiệm");
+                holder.ivIcon.setImageResource(R.drawable.ic_saving);
+                holder.cardBackground.setBackgroundResource(R.drawable.bg_gradient_saving);
+                break;
+            case MORTGAGE:
+                holder.tvAccountType.setText("Tài khoản Vay");
+                holder.ivIcon.setImageResource(R.drawable.ic_mortgage);
+                holder.cardBackground.setBackgroundResource(R.drawable.bg_gradient_mortgage);
+                break;
+        }
+        
+        holder.tvAccountNumber.setText(account.getFormattedAccountNumber());
+        holder.tvBalance.setText(FormatUtils.formatCurrency(account.getBalance()));
+        
+        // Status
+        String statusText = "Hoạt động";
+        if (account.getStatus() != null) {
+            switch (account.getStatus()) {
+                case ACTIVE: statusText = "Hoạt động"; break;
+                case INACTIVE: statusText = "Không hoạt động"; break;
+                case FROZEN: statusText = "Đóng băng"; break;
+                case CLOSED: statusText = "Đã đóng"; break;
+            }
+        }
+        holder.tvStatus.setText(statusText);
+        
+        // Click listener
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, AccountDetailActivity.class);
+            intent.putExtra("account_id", account.getId());
+            context.startActivity(intent);
+        });
     }
 
     @Override
     public int getItemCount() {
-        return accountList != null ? accountList.size() : 0;
+        return accounts.size();
     }
 
-    class AccountViewHolder extends RecyclerView.ViewHolder {
-        private CardView cardAccount;
-        private ImageView ivAccountIcon;
-        private TextView tvAccountType, tvAccountNumber, tvAccountBalance, tvAccountStatus;
-        private TextView tvInterestRate, tvMonthlyPayment;
-        private View layoutSavingInfo, layoutMortgageInfo;
+    static class ViewHolder extends RecyclerView.ViewHolder {
+        LinearLayout cardBackground;
+        ImageView ivIcon;
+        TextView tvAccountType, tvAccountNumber, tvBalance, tvStatus;
 
-        public AccountViewHolder(@NonNull View itemView) {
+        ViewHolder(@NonNull View itemView) {
             super(itemView);
-            cardAccount = itemView.findViewById(R.id.card_account);
-            ivAccountIcon = itemView.findViewById(R.id.iv_account_icon);
-            tvAccountType = itemView.findViewById(R.id.tv_account_type);
-            tvAccountNumber = itemView.findViewById(R.id.tv_account_number);
-            tvAccountBalance = itemView.findViewById(R.id.tv_account_balance);
-            tvAccountStatus = itemView.findViewById(R.id.tv_account_status);
-            tvInterestRate = itemView.findViewById(R.id.tv_interest_rate);
-            tvMonthlyPayment = itemView.findViewById(R.id.tv_monthly_payment);
-            layoutSavingInfo = itemView.findViewById(R.id.layout_saving_info);
-            layoutMortgageInfo = itemView.findViewById(R.id.layout_mortgage_info);
+            cardBackground = itemView.findViewById(R.id.cardBackground);
+            ivIcon = itemView.findViewById(R.id.ivIcon);
+            tvAccountType = itemView.findViewById(R.id.tvAccountType);
+            tvAccountNumber = itemView.findViewById(R.id.tvAccountNumber);
+            tvBalance = itemView.findViewById(R.id.tvBalance);
+            tvStatus = itemView.findViewById(R.id.tvStatus);
         }
-
-        public void bind(Account account) {
-            // Set account type name and icon
-            String accountTypeName;
-            int iconRes;
-            int cardColor;
-            
-            switch (account.getAccountType()) {
-                case SAVING:
-                    accountTypeName = "Tài khoản Tiết kiệm";
-                    iconRes = R.drawable.ic_saving;
-                    cardColor = context.getResources().getColor(R.color.saving_card);
-                    if (layoutSavingInfo != null) {
-                        layoutSavingInfo.setVisibility(View.VISIBLE);
-                        tvInterestRate.setText(FormatUtils.formatInterestRate(account.getInterestRate()));
-                    }
-                    if (layoutMortgageInfo != null) {
-                        layoutMortgageInfo.setVisibility(View.GONE);
-                    }
-                    break;
-                case MORTGAGE:
-                    accountTypeName = "Tài khoản Vay";
-                    iconRes = R.drawable.ic_mortgage;
-                    cardColor = context.getResources().getColor(R.color.mortgage_card);
-                    if (layoutMortgageInfo != null) {
-                        layoutMortgageInfo.setVisibility(View.VISIBLE);
-                        tvMonthlyPayment.setText(FormatUtils.formatCurrency(account.getMonthlyPayment()));
-                    }
-                    if (layoutSavingInfo != null) {
-                        layoutSavingInfo.setVisibility(View.GONE);
-                    }
-                    break;
-                case CHECKING:
-                default:
-                    accountTypeName = "Tài khoản Thanh toán";
-                    iconRes = R.drawable.ic_checking;
-                    cardColor = context.getResources().getColor(R.color.checking_card);
-                    if (layoutSavingInfo != null) layoutSavingInfo.setVisibility(View.GONE);
-                    if (layoutMortgageInfo != null) layoutMortgageInfo.setVisibility(View.GONE);
-                    break;
-            }
-
-            tvAccountType.setText(accountTypeName);
-            ivAccountIcon.setImageResource(iconRes);
-            cardAccount.setCardBackgroundColor(cardColor);
-
-            // Set account number (masked)
-            tvAccountNumber.setText(FormatUtils.maskAccountNumber(account.getAccountNumber()));
-
-            // Set balance
-            tvAccountBalance.setText(FormatUtils.formatCurrency(account.getBalance()));
-
-            // Set status
-            String statusText;
-            int statusColor;
-            switch (account.getStatus()) {
-                case ACTIVE:
-                    statusText = "Hoạt động";
-                    statusColor = context.getResources().getColor(R.color.status_active);
-                    break;
-                case INACTIVE:
-                    statusText = "Không hoạt động";
-                    statusColor = context.getResources().getColor(R.color.status_inactive);
-                    break;
-                case FROZEN:
-                    statusText = "Đã đóng băng";
-                    statusColor = context.getResources().getColor(R.color.status_frozen);
-                    break;
-                case CLOSED:
-                    statusText = "Đã đóng";
-                    statusColor = context.getResources().getColor(R.color.status_closed);
-                    break;
-                default:
-                    statusText = "Không xác định";
-                    statusColor = context.getResources().getColor(R.color.text_secondary);
-            }
-            tvAccountStatus.setText(statusText);
-            tvAccountStatus.setTextColor(statusColor);
-
-            // Click listener
-            cardAccount.setOnClickListener(v -> {
-                if (listener != null) {
-                    listener.onAccountClick(account);
-                }
-            });
-        }
-    }
-
-    public void updateData(List<Account> newList) {
-        this.accountList = newList;
-        notifyDataSetChanged();
     }
 }

@@ -8,36 +8,55 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.material.textfield.TextInputLayout;
 import com.example.myapplication.R;
 import com.example.myapplication.models.Account;
 import com.example.myapplication.models.User;
-import com.example.myapplication.utils.Constants;
 import com.example.myapplication.utils.FirebaseHelper;
+import com.example.myapplication.utils.OTPManager;
 import com.example.myapplication.utils.SessionManager;
 
 import java.util.Date;
 
 /**
- * Registration activity for new users
+ * RegisterActivity - Màn hình đăng ký cho KHÁCH HÀNG
+ * 
+ * Lưu ý:
+ * - Chỉ khách hàng mới có thể tự đăng ký
+ * - Nhân viên ngân hàng được admin tạo sẵn trong Firebase
+ * - Hệ thống tự động set userType = CUSTOMER
  */
 public class RegisterActivity extends AppCompatActivity {
 
-    private TextInputLayout tilFullName, tilEmail, tilPhone, tilIdCard, tilPassword, tilConfirmPassword;
     private EditText etFullName, etEmail, etPhone, etIdCard, etPassword, etConfirmPassword;
-    private RadioGroup rgUserType;
     private Button btnRegister;
     private TextView tvLogin;
     private ProgressBar progressBar;
 
     private FirebaseHelper firebaseHelper;
     private SessionManager sessionManager;
+    private OTPManager otpManager;
+
+    // Pending registration data
+    private String pendingFullName, pendingEmail, pendingPhone, pendingIdCard, pendingPassword;
+
+    // OTP Result Launcher
+    private final ActivityResultLauncher<Intent> otpLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            result -> {
+                if (result.getResultCode() == OTPVerificationActivity.RESULT_OTP_VERIFIED) {
+                    performRegistration();
+                } else {
+                    Toast.makeText(this, "Đăng ký đã bị hủy", Toast.LENGTH_SHORT).show();
+                }
+            }
+    );
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,45 +64,27 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         initViews();
-        initFirebase();
-        setupClickListeners();
+        firebaseHelper = FirebaseHelper.getInstance();
+        sessionManager = SessionManager.getInstance(this);
+        otpManager = OTPManager.getInstance(this);
+
+        btnRegister.setOnClickListener(v -> validateAndRequestOTP());
+        tvLogin.setOnClickListener(v -> finish());
     }
 
     private void initViews() {
-        tilFullName = findViewById(R.id.til_full_name);
-        tilEmail = findViewById(R.id.til_email);
-        tilPhone = findViewById(R.id.til_phone);
-        tilIdCard = findViewById(R.id.til_id_card);
-        tilPassword = findViewById(R.id.til_password);
-        tilConfirmPassword = findViewById(R.id.til_confirm_password);
-
-        etFullName = findViewById(R.id.et_full_name);
-        etEmail = findViewById(R.id.et_email);
-        etPhone = findViewById(R.id.et_phone);
-        etIdCard = findViewById(R.id.et_id_card);
-        etPassword = findViewById(R.id.et_password);
-        etConfirmPassword = findViewById(R.id.et_confirm_password);
-
-        rgUserType = findViewById(R.id.rg_user_type);
-        btnRegister = findViewById(R.id.btn_register);
-        tvLogin = findViewById(R.id.tv_login);
-        progressBar = findViewById(R.id.progress_bar);
+        etFullName = findViewById(R.id.etFullName);
+        etEmail = findViewById(R.id.etEmail);
+        etPhone = findViewById(R.id.etPhone);
+        etIdCard = findViewById(R.id.etIdCard);
+        etPassword = findViewById(R.id.etPassword);
+        etConfirmPassword = findViewById(R.id.etConfirmPassword);
+        btnRegister = findViewById(R.id.btnRegister);
+        tvLogin = findViewById(R.id.tvLogin);
+        progressBar = findViewById(R.id.progressBar);
     }
 
-    private void initFirebase() {
-        firebaseHelper = FirebaseHelper.getInstance();
-        sessionManager = SessionManager.getInstance(this);
-    }
-
-    private void setupClickListeners() {
-        btnRegister.setOnClickListener(v -> validateAndRegister());
-
-        tvLogin.setOnClickListener(v -> {
-            finish();
-        });
-    }
-
-    private void validateAndRegister() {
+    private void validateAndRequestOTP() {
         String fullName = etFullName.getText().toString().trim();
         String email = etEmail.getText().toString().trim();
         String phone = etPhone.getText().toString().trim();
@@ -91,154 +92,111 @@ public class RegisterActivity extends AppCompatActivity {
         String password = etPassword.getText().toString();
         String confirmPassword = etConfirmPassword.getText().toString();
 
-        // Reset errors
-        tilFullName.setError(null);
-        tilEmail.setError(null);
-        tilPhone.setError(null);
-        tilIdCard.setError(null);
-        tilPassword.setError(null);
-        tilConfirmPassword.setError(null);
-
-        // Validate full name
+        // Validation
         if (TextUtils.isEmpty(fullName)) {
-            tilFullName.setError("Vui lòng nhập họ tên");
+            etFullName.setError("Vui lòng nhập họ tên");
+            etFullName.requestFocus();
             return;
         }
 
-        // Validate email
-        if (TextUtils.isEmpty(email)) {
-            tilEmail.setError("Vui lòng nhập email");
-            return;
-        }
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            tilEmail.setError("Email không hợp lệ");
+            etEmail.setError("Email không hợp lệ");
+            etEmail.requestFocus();
             return;
         }
 
-        // Validate phone
-        if (TextUtils.isEmpty(phone)) {
-            tilPhone.setError("Vui lòng nhập số điện thoại");
-            return;
-        }
-        if (!phone.matches(Constants.PHONE_REGEX)) {
-            tilPhone.setError("Số điện thoại không hợp lệ");
+        if (phone.length() < 10) {
+            etPhone.setError("Số điện thoại không hợp lệ");
+            etPhone.requestFocus();
             return;
         }
 
-        // Validate ID card
-        if (TextUtils.isEmpty(idCard)) {
-            tilIdCard.setError("Vui lòng nhập số CMND/CCCD");
-            return;
-        }
-        if (!idCard.matches(Constants.ID_CARD_REGEX)) {
-            tilIdCard.setError("Số CMND/CCCD không hợp lệ");
+        if (idCard.length() < 9) {
+            etIdCard.setError("Số CMND/CCCD không hợp lệ");
+            etIdCard.requestFocus();
             return;
         }
 
-        // Validate password
-        if (TextUtils.isEmpty(password)) {
-            tilPassword.setError("Vui lòng nhập mật khẩu");
-            return;
-        }
-        if (password.length() < Constants.MIN_PASSWORD_LENGTH) {
-            tilPassword.setError("Mật khẩu phải có ít nhất " + Constants.MIN_PASSWORD_LENGTH + " ký tự");
+        if (password.length() < 6) {
+            etPassword.setError("Mật khẩu phải có ít nhất 6 ký tự");
+            etPassword.requestFocus();
             return;
         }
 
-        // Validate confirm password
         if (!password.equals(confirmPassword)) {
-            tilConfirmPassword.setError("Mật khẩu không khớp");
+            etConfirmPassword.setError("Mật khẩu không khớp");
+            etConfirmPassword.requestFocus();
             return;
         }
 
-        // Get user type
-        User.UserType userType = User.UserType.CUSTOMER;
-        int selectedId = rgUserType.getCheckedRadioButtonId();
-        if (selectedId == R.id.rb_officer) {
-            userType = User.UserType.OFFICER;
-        }
+        // Save pending data
+        pendingFullName = fullName;
+        pendingEmail = email;
+        pendingPhone = phone;
+        pendingIdCard = idCard;
+        pendingPassword = password;
 
-        // Create user
-        performRegistration(fullName, email, phone, idCard, password, userType);
+        // Launch OTP verification with email
+        launchOTPVerification(email);
     }
 
-    private void performRegistration(String fullName, String email, String phone, 
-                                     String idCard, String password, User.UserType userType) {
+    private void launchOTPVerification(String email) {
+        Intent intent = new Intent(this, OTPVerificationActivity.class);
+        intent.putExtra(OTPVerificationActivity.EXTRA_TRANSACTION_TYPE, "REGISTER");
+        intent.putExtra(OTPVerificationActivity.EXTRA_DESCRIPTION, "Xác minh email");
+        intent.putExtra(OTPVerificationActivity.EXTRA_EMAIL, email);
+        otpLauncher.launch(intent);
+    }
+
+    private void performRegistration() {
         showLoading(true);
 
-        firebaseHelper.signUp(email, password, task -> {
+        firebaseHelper.signUp(pendingEmail, pendingPassword, task -> {
             if (task.isSuccessful()) {
-                // Create user document in Firestore
-                User user = new User(email, fullName, phone, userType);
+                // Tạo user với userType = CUSTOMER (mặc định)
+                User user = new User(pendingEmail, pendingFullName, pendingPhone, User.UserType.CUSTOMER);
                 user.setId(firebaseHelper.getCurrentUserId());
-                user.setIdCardNumber(idCard);
+                user.setIdCardNumber(pendingIdCard);
                 user.setCreatedAt(new Date());
                 user.setUpdatedAt(new Date());
-
-                saveUserToFirestore(user);
+                user.setVerified(true);
+                saveUser(user);
             } else {
                 showLoading(false);
-                String errorMessage = "Đăng ký thất bại";
-                if (task.getException() != null) {
-                    String message = task.getException().getMessage();
-                    if (message != null && message.contains("email")) {
-                        errorMessage = "Email đã được sử dụng";
-                    }
-                }
-                Toast.makeText(RegisterActivity.this, errorMessage, Toast.LENGTH_SHORT).show();
+                String error = task.getException() != null ? task.getException().getMessage() : "Đăng ký thất bại";
+                Toast.makeText(this, error, Toast.LENGTH_SHORT).show();
             }
         });
     }
 
-    private void saveUserToFirestore(User user) {
+    private void saveUser(User user) {
         firebaseHelper.createUser(user, task -> {
             if (task.isSuccessful()) {
-                // Create default checking account for customers
-                if (user.getUserType() == User.UserType.CUSTOMER) {
-                    createDefaultAccount(user);
-                } else {
-                    showLoading(false);
-                    sessionManager.createLoginSession(user);
-                    navigateToMain(user.getUserType());
-                }
+                // Tạo tài khoản thanh toán mặc định cho khách hàng
+                createDefaultAccount(user);
             } else {
                 showLoading(false);
-                Toast.makeText(RegisterActivity.this, 
-                        "Lỗi lưu thông tin người dùng", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Lỗi lưu thông tin", Toast.LENGTH_SHORT).show();
             }
         });
     }
 
     private void createDefaultAccount(User user) {
-        Account checkingAccount = new Account(user.getId(), Account.AccountType.CHECKING);
-        checkingAccount.setBalance(0);
-        checkingAccount.setStatus(Account.AccountStatus.ACTIVE);
+        Account account = new Account(user.getId(), Account.AccountType.CHECKING);
+        account.setBalance(1000000); // 1 triệu VND khởi điểm
+        account.setStatus(Account.AccountStatus.ACTIVE);
 
-        firebaseHelper.createAccount(checkingAccount, task -> {
+        firebaseHelper.createAccount(account, task -> {
             showLoading(false);
-            if (task.isSuccessful()) {
-                sessionManager.createLoginSession(user);
-                Toast.makeText(RegisterActivity.this, 
-                        "Đăng ký thành công! Tài khoản của bạn: " + checkingAccount.getAccountNumber(), 
-                        Toast.LENGTH_LONG).show();
-                navigateToMain(user.getUserType());
-            } else {
-                sessionManager.createLoginSession(user);
-                navigateToMain(user.getUserType());
-            }
+            sessionManager.createLoginSession(user);
+            Toast.makeText(this, "✅ Đăng ký thành công!", Toast.LENGTH_SHORT).show();
+            
+            // Luôn chuyển đến MainActivity (khách hàng)
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         });
-    }
-
-    private void navigateToMain(User.UserType userType) {
-        Intent intent;
-        if (userType == User.UserType.OFFICER) {
-            intent = new Intent(this, OfficerMainActivity.class);
-        } else {
-            intent = new Intent(this, MainActivity.class);
-        }
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(intent);
-        finish();
     }
 
     private void showLoading(boolean show) {

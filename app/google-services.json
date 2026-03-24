@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "YOUR_PROJECT_NUMBER",
-    "project_id": "your-banking-app",
-    "storage_bucket": "your-banking-app.appspot.com"
+    "project_number": "839009959558",
+    "project_id": "bank-149b1",
+    "storage_bucket": "bank-149b1.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:YOUR_APP_ID",
+        "mobilesdk_app_id": "1:839009959558:android:6ade32b761e0ddce609b07",
         "android_client_info": {
           "package_name": "com.example.myapplication"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "YOUR_API_KEY"
+          "current_key": "AIzaSyANNR_eEQpYAIkCoxwYERlfxJI0SFi5rJ8"
         }
       ],
       "services": {

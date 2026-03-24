@@ -1,0 +1,342 @@
+[
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_manage_interest_rates.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_manage_interest_rates.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_main.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_dashboard.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_dashboard.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_mortgage.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_mortgage.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_qr_scanner.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_qr_scanner.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_home.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_item_saving_account.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/item_saving_account.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_settings.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_item_account.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/item_account.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_history.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_splash.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_otp_verification.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_otp_verification.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_back.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_open_account.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_open_account.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_register.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_internet.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_internet.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_phone_topup.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_phone_topup.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_face_verification.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_face_verification.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_services.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_services.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_checking.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_checking.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_bill_payment.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_bill_payment.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_deposit.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_deposit.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_login.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_notification.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_card.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_card.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_water.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_water.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_item_quick_action.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/item_quick_action.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_add.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_profile.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/xml_file_paths.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_bg_gradient_saving.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/bg_gradient_saving.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_qr_code.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_qr_code.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_withdraw.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_withdraw.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_manage_customers.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_manage_customers.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_bill.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_bill.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_bg_gradient_primary.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/bg_gradient_primary.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_officer_main.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_officer_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_email.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_logout.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_customer_detail.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_customer_detail.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_bg_input.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_transfer.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_transfer.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_bg_circle_primary.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/bg_circle_primary.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_create_customer.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_create_customer.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_location.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_transfer.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_transfer.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_fingerprint.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_fingerprint.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_qr.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_qr.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_account_detail.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_account_detail.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_bg_button_primary.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_bg_card.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_saving.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_saving.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_custom_barcode_scanner.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/custom_barcode_scanner.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_tv.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_tv.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_more.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_more.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_transaction_history.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_transaction_history.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_phone.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_bank.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_bank.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_people.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_people.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_item_transaction.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/item_transaction.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_lock.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_search.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_bg_button_outline.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/bg_button_outline.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_electricity.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_electricity.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_person.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_topup.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_topup.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_bg_transaction_icon.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/bg_transaction_icon.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_item_customer.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/item_customer.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_bg_gradient_mortgage.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/bg_gradient_mortgage.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/menu_menu_main.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/drawable_ic_menu.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-48:/layout_activity_map.xml.flat",
+        "source": "com.example.myapplication.app-main-50:/layout/activity_map.xml"
+    }
+]
