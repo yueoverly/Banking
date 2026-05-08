@@ -1,7 +1,7 @@
 # TDT Bank - Mobile Banking Application
 
 ## Mô tả dự án
-Ứng dụng Mobile Banking được phát triển cho môn học Mobile Apps Development tại Trường Đại học Tôn Đức Thắng (TDTU). Ứng dụng cho phép khách hàng thực hiện các giao dịch ngân hàng và nhân viên ngân hàng quản lý khách hàng.
+Ứng dụng cho phép khách hàng thực hiện các giao dịch ngân hàng và nhân viên ngân hàng quản lý khách hàng.
 
 ## Công nghệ sử dụng
 - **Ngôn ngữ**: Java
@@ -96,13 +96,6 @@ com.example.myapplication/
 - Gọi điện đến chi nhánh
 
 ## Cài đặt
-
-### Yêu cầu
-- Android Studio Arctic Fox trở lên
-- JDK 17
-- Android SDK 34
-- Google Play Services
-
 ### Bước 1: Clone project
 ```bash
 git clone <repository-url>
@@ -165,29 +158,3 @@ branches/
       ├── latitude: number
       ├── longitude: number
       └── ...
-```
-
-## Screenshots
-
-*Thêm screenshots của ứng dụng ở đây*
-
-## Đóng góp
-
-1. Fork repository
-2. Tạo branch mới (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Mở Pull Request
-
-## Giấy phép
-
-Dự án này được phát triển cho mục đích học tập tại TDTU.
-
-## Liên hệ
-
-- **Trường**: Đại học Tôn Đức Thắng
-- **Khoa**: Công nghệ Thông tin
-- **Môn học**: Mobile Apps Development
-
----
-© 2024 TDT Bank - Mobile Banking Application
